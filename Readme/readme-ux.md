@@ -65,7 +65,8 @@ This site provides the opportunities to showcase my relevant skills ranging from
 * Use semantic HTML to enhance readability of codes
 * HTML codes to be validated
 * Domain Name registered directing to this project
-
+* At least 3 pages, or (if using a single scrolling page), at least 3 separate page areas. [Project requirement]
+* Incorporate a main navigation menu and structured layout using Bootstrap [Project requirement]
 
 #### Optional Requirements
 
