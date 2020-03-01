@@ -160,7 +160,7 @@ Once the form is submitted and validated, visitor will received a "Message Succe
 
 #### Folder Structure
 
-Folders | | | Description
+Folders | Sub folders...  | Description
 ------------ | ------------- | ------------- | ------------- |
 root | . | . | root folder
 | | readme | | folder containing information and images about project 
