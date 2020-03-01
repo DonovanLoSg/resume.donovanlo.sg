@@ -156,3 +156,21 @@ Once the form is submitted and validated, visitor will received a "Message Succe
     * Contact Form
     * Contact Details
 
+![Site Map](Readme/site-map.png)
+
+#### Folder Structure
+
+Folders | | | Description
+------------ | ------------- | ------------- | ------------- |
+root | . | . | root folder
+| | readme | | folder containing information and images about project 
+| | images | | contain images for home page
+| | styles | | contain css for the whole Site
+| | javascripts | | contain javascripts for the whole site
+| | documents | | contain downloadable Resume
+| | resume | | contain index.html for resume page
+| |  | images | contain images for resume page
+| | portfolio | | contain index.html for portfoio page
+| | | | images | contain images for portfolio page
+| | contact | | contain index.html for conact page
+| | | images | contain images for contact page |
