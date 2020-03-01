@@ -102,7 +102,34 @@ This site provides the opportunities to showcase my relevant skills ranging from
 
 ### Interaction design
 
+#### Navigation Bar 
+
+Provide links to top of individual pages
+
+1. Home
+1. Resume
+1. Portfolio
+1. Contact
+
+#### Footer Site Map
+
+Implement a footer site map linking text to the contents as indicated in the 'Site Map' section.
+
+#### Contact Form
+
+Allows visitor to fill up and submit a contact form containing the following fields:
+* Name (required)
+* Contact Number
+* Email Address (required)
+* Message
+* Best day to call (date)
+
+Once the form is submitted and validated, visitor will received a "Message Successfully Sent!"
+
+
 ### Information design
+
+#### Site Map
 
 * Home Page
     * Hero Image
