@@ -103,3 +103,29 @@ This site provides the opportunities to showcase my relevant skills ranging from
 ### Interaction design
 
 ### Information design
+
+* Home Page
+    * Hero Image
+    * Intro / Bio
+    * Passion
+    * Testimonials
+
+* Resume
+    * Objective
+    * Skills Summary
+    * Past Working Experience
+    * Education
+    * Skills
+    * Certificate and Projects
+    * Download Resume
+
+* Portfolio
+    * Project 1
+    * Project 2
+    * Project 3
+    * Project 4
+
+* Contact Page
+    * Contact Form
+    * Contact Details
+
