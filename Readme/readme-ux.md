@@ -50,3 +50,26 @@ This site provides the opportunities to showcase my relevant skills ranging from
 * As a hiring manager or recruitment agent, I will look at the testimonials from people the site owner has worked with, so that I can validate what the site owner claims.
 
 * As a hiring manager or recruitment agent, I will look for the site owner's motivator, so that I can know what drives the site owner and whether he is suitable for the position.
+
+## Scope
+
+### Functional Requirements
+
+#### Mandatory Requirements
+
+* Ease of Navigation
+* Mobile responsive
+* Allows download of resume
+* Online form to work correctly
+* Include a Sitemap
+* Use semantic HTML to enhance readability of codes
+* HTML codes to be validated
+* Domain Name registered directing to this project
+
+#### Optional Requirements
+
+* Comply to Web Content Accessibility Guidelines
+* Readability (Flesch Reading East Test = 60, Flesch-Kincaid Grade Level Score = 8) (with exception of technical terms)
+* Allow sending of short messages via web interface (e.g. WhatsApp)
+* SEO Optimized
+
