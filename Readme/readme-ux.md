@@ -66,6 +66,7 @@ This site provides the opportunities to showcase my relevant skills ranging from
 * HTML codes to be validated
 * Domain Name registered directing to this project
 
+
 #### Optional Requirements
 
 * Comply to Web Content Accessibility Guidelines
@@ -96,3 +97,8 @@ This site provides the opportunities to showcase my relevant skills ranging from
 * Interest
 * Result of Personality Tests (e.g. Myers & Briggs')
 
+## Structure
+
+### Interaction design
+
+### Information design
