@@ -73,3 +73,26 @@ This site provides the opportunities to showcase my relevant skills ranging from
 * Allow sending of short messages via web interface (e.g. WhatsApp)
 * SEO Optimized
 
+### Content Requirements
+
+#### Mandatory Requirements
+
+* Personal Bio
+* Contact Details
+* Skills
+* Previous Working Experience / Accomplishments
+* Educations
+* Downloadable Resume
+* Project portfolio
+* Testimonials
+* Motivated By
+* Photograph
+
+#### Optional Requirements
+
+* Logo
+* Tagline
+* Value Proposition
+* Interest
+* Result of Personality Tests (e.g. Myers & Briggs')
+
