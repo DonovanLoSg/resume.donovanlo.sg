@@ -102,18 +102,9 @@ This site provides the opportunities to showcase my relevant skills ranging from
 
 ### Interaction design
 
-#### Navigation Bar 
 
-Provide links to top of individual pages
 
-1. Home
-1. Resume
-1. Portfolio
-1. Contact
 
-#### Footer Site Map
-
-Implement a footer site map linking text to the contents as indicated in the 'Site Map' section.
 
 #### Contact Form
 
@@ -127,7 +118,7 @@ Allows visitor to fill up and submit a contact form containing the following fie
 Once the form is submitted and validated, visitor will received a "Message Successfully Sent!"
 
 
-### Information design
+### Information Architecture
 
 #### Site Map
 
@@ -155,22 +146,54 @@ Once the form is submitted and validated, visitor will received a "Message Succe
 * Contact Page
     * Contact Form
     * Contact Details
+    
 
-![Site Map](Readme/site-map.png)
+Refer to: /readme/site-map.png
+
 
 #### Folder Structure
 
-Folders | Sub folders...  | Description
------------- | ------------- | ------------- | ------------- |
-root | . | . | root folder
-| | readme | | folder containing information and images about project 
-| | images | | contain images for home page
-| | styles | | contain css for the whole Site
-| | javascripts | | contain javascripts for the whole site
-| | documents | | contain downloadable Resume
-| | resume | | contain index.html for resume page
-| |  | images | contain images for resume page
-| | portfolio | | contain index.html for portfoio page
-| | | | images | contain images for portfolio page
-| | contact | | contain index.html for conact page
-| | | images | contain images for contact page |
+* root: root folder
+    * readme: folder containing information and images about project 
+    * images: contain images for home page
+    * styles: contain css for the whole Site
+    * javascripts: contain javascripts for the whole site
+    * documents: contain downloadable Resume
+    * resume: contain index.html for resume page
+        * images: contain images for resume page
+    * portfolio: contain index.html for portfoio page
+        * images: contain images for portfolio page
+    * contact: contain index.html for conact page
+        * images: contain images for contact page
+
+## Skeleton
+
+### Interface Design
+
+
+
+
+
+
+### Navigation Design
+
+#### Navigation Bar 
+
+Provide links to top of individual pages
+
+1. Home
+1. Resume
+1. Portfolio
+1. Contact
+
+#### Footer Site Map
+
+Implement a footer site map linking text to the contents as indicated in the 'Site Map' section.
+
+### Information Design
+
+
+
+
+
+
