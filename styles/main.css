@@ -1,0 +1,24 @@
+body
+
+
+footer {
+    background: black;
+}
+
+#footer-sitemap {
+    font-family: 'PT Sans', Lucida Sans, san-serif;
+}
+
+#footer-sitemap ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+
+  background: yellow;
+}
+
+#footer-sitemap li {
+background: cyan;
+
+}
