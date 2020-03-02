@@ -100,99 +100,92 @@ This site provides the opportunities to showcase my relevant skills ranging from
 
 ## Structure
 
-### Interaction design
-
-
-
-
-
-#### Contact Form
-
-Allows visitor to fill up and submit a contact form containing the following fields:
-* Name (required)
-* Contact Number
-* Email Address (required)
-* Message
-* Best day to call (date)
-
-Once the form is submitted and validated, visitor will received a "Message Successfully Sent!"
-
-
 ### Information Architecture
 
-#### Site Map
+#### Content Inventory
 
-* Home Page
-    * Hero Image
+Information required for the website to meet the mandatory functional and content requirement:
+1. Information available on the traditional resume
+    * Objective
+    * Past working experience
+    * Education
+    * Skills
+    * Certificates
+    * Contact details
+    
+1. Information requiring copywriting
     * Intro / Bio
     * Passion
     * Testimonials
+    * Skill Summary (after matching keywords and relevant skills identified )
 
-* Resume
-    * Objective
-    * Skills Summary
-    * Past Working Experience
-    * Education
-    * Skills
-    * Certificate and Projects
-    * Download Resume
+1. Information to be compiled
+    * Keywords for previous positions and current positions
+    * Projects (title and descriptions)
 
-* Portfolio
-    * Project 1
-    * Project 2
-    * Project 3
-    * Project 4
+1. Image required
+    * High resolution photo for display as hero image
+    * Images to be used for representing individual projects
 
-* Contact Page
-    * Contact Form
-    * Contact Details
-    
+1. Documents
+    * A traditional resume in pdf format
 
-Refer to: /readme/site-map.png
+### Content Structure
 
+This website uses a hierarchical tree structure. The website content are divided into four pages, each contain a number of sections.
+These pages and sections can be display in a hierarchical order, thus providing the site map.
 
-#### Folder Structure
+The four pages have short and easy recognisable title, namely, 'Home', 'Resume', 'Portfolio' and 'Contact'.
 
-* root: root folder
-    * readme: folder containing information and images about project 
-    * images: contain images for home page
-    * styles: contain css for the whole Site
-    * javascripts: contain javascripts for the whole site
-    * documents: contain downloadable Resume
-    * resume: contain index.html for resume page
-        * images: contain images for resume page
-    * portfolio: contain index.html for portfoio page
-        * images: contain images for portfolio page
-    * contact: contain index.html for conact page
-        * images: contain images for contact page
+1. The 'Home' page serves as a landing page and therefore the best location to set good impression.  It should allow the visitor a glimpse of my character and personality. 
+
+1. The 'Resume' page is layout should be suitable for career changer. It should be effective in showing transferrable skills and experience. It will also contain a link for the visitor to download a pdf copy of the resume. The format of the pdf copy should be similar in layout with the 'resume' page.
+
+1. The 'Portfolio' page is a proof of abilities. It contains the names, descriptions, github hyperlinks of the current and past projects. Having a page dedicated to the projects allows the growth of the listing without affecting the layout of the other pages.
+
+1. The 'Contact' page provide different means to get in touch with me. The page will also include a contact form so the visitor can easily drop me a mail without needing to go back to their email applications.
+
+### Interaction Design
+
+### Actions
+
+The website should:
+
+* Allow browsing of the website with ease to access  the information they need.
+
+* Provide a downloadable copy of my resume.
+
+* Provide a working contact form to allow visitor to send an email to me and response with a relevant feedback when it is submitted.
+
+* Provide evidence of projects (portfolio linking to GitHub repositories).
+
+* Include a title in each page to indicate where in the site the visitor is.
+
+* Contain a main navigation bar to allow navigation between the pages.
+
+* Contain a footer site map to allow the visitor to jump directly to the information he required
+
+### Layout
+
+* The title, main navigation and footer site should have the same look and feel in all the four pages to improve consistency and predictability.
+
+* Utilisation of negative space to space to insert margins, space out the sections, between the navigation and content and in between similar elements.
+
+### Codes
+
+* Uses semantic HTML to enhance readability of codes
+
+* Validate the HTML codes to check for compliance with the standards
+
+* Uses bootstrap to code the primary navigation bar, portfolio and footer site map to make the website mobile responsive
 
 ## Skeleton
 
 ### Interface Design
 
-
-
-
-
-
 ### Navigation Design
 
-#### Navigation Bar 
-
-Provide links to top of individual pages
-
-1. Home
-1. Resume
-1. Portfolio
-1. Contact
-
-#### Footer Site Map
-
-Implement a footer site map linking text to the contents as indicated in the 'Site Map' section.
-
 ### Information Design
-
-
 
 
 
