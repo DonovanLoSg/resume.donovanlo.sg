@@ -1,4 +1,18 @@
+ :root {
+     --this-page-number: 1;
+ }
+ 
+ .dot {
+  height: 25px;
+  width: 25px;
+  background-color: #white;
+  border-radius: 50%;
+  display: inline-block;
+}
+ 
 
+
+ 
  footer {
      font-family: 'PT Sans', Lucida Sans, san-serif;
      background: black;
@@ -6,26 +20,37 @@
      font-size: 14px;
      line-height: 1.67em;
 }
- 
+
+#linear-navi ul {
+    list-style-type: none;
+}
+
+#linear-navi li a{
+    color: white;
+}
+
+#linear-navi li a:hover {
+
+    color: azure;
+    backgrohund: grey;
+
+}
+
+
  #footer-sitemap ul {
      list-style-type: none;
-
- }
-
+}
  #footer-sitemap li a, #footer-sitemap li li a {
      color: white;
- }
-
-
-  #footer-sitemap li a:hover, #footer-sitemap li li a:hover {
-    color: azure;
-    background: grey;
- }
-
-
-.sitemap-header {
-    font-weight: bold;
-    display: inline-block;
-    margin-bottom: 1em;
-    margin-top: 3em;
 }
+ #footer-sitemap li a:hover, #footer-sitemap li li a:hover {
+     color: azure;
+     background: grey;
+}
+ .sitemap-header {
+     font-weight: bold;
+     display: inline-block;
+     margin-bottom: 1em;
+     margin-top: 3em;
+}
+
