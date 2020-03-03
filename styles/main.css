@@ -1,24 +1,38 @@
-body
+body {
+}
+ footer {
+     background: black;
+     color: whitesmoke;
+}
+ .footer-sitemap-hdr {
+     font-weight: bold;
+     line-height: 1.618em;
+     line-height: 50px;
+}
+ #footer-sitemap {
+     font-family: 'PT Sans', Lucida Sans, san-serif;
+     color: white;
+}
+ #footer-sitemap ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     font-size: 14px;
+}
 
-
-footer {
+#footer-sitemap li li a {
+     color: white;
     background: black;
+     outline: none;
+     text-decoration: none;
+     padding: 2px 1px 0;
 }
 
-#footer-sitemap {
-    font-family: 'PT Sans', Lucida Sans, san-serif;
-}
-
-#footer-sitemap ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  font-size: 12px;
-
-  background: yellow;
-}
-
-#footer-sitemap li {
-background: cyan;
+#footer-sitemap li li a:hover {
+     border-bottom: 1px solid;
+     background: lightcyan;
+     color: black ;
+     text-decoration: underline;
 
 }
+ 
