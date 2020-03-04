@@ -2,14 +2,34 @@
      --this-page-number: 1;
  }
  
- .dot {
-  height: 25px;
-  width: 25px;
-  background-color: #white;
-  border-radius: 50%;
-  display: inline-block;
+
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/donovan.jpg");
+
+  /* Set a specific height */
+  height: 819px;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
 }
- 
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
 
 
  
@@ -21,20 +41,19 @@
      line-height: 1.67em;
 }
 
-#linear-navi ul {
-    list-style-type: none;
+
+#linear-navi{
+    margin-top:50px;
+    margin-bottomL50px;
 }
 
-#linear-navi li a{
-    color: white;
+.dots {
+            font-size: 1.67em;
+        margin: 20px;
+color: white;
 }
 
-#linear-navi li a:hover {
 
-    color: azure;
-    backgrohund: grey;
-
-}
 
 
  #footer-sitemap ul {
