@@ -3,22 +3,21 @@
  }
  
 
-
-/* The hero image */
-.hero-image {
+.jumbotron {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/donovan.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("/images/donovan.jpg");
 
   /* Set a specific height */
-  height: 819px;
+  height: 50%;
 
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  
+  height: 500px;
 }
+
 
 /* Place text in the middle of the image */
 .hero-text {
@@ -29,7 +28,6 @@
   transform: translate(-50%, -50%);
   color: white;
 }
-
 
 
  
