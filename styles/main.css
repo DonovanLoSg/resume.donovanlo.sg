@@ -12,14 +12,11 @@ li.nav-item.active {
     font-weight: bolder;
     }
 
-#fillheader {height: 90px; }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+main {
+    margin-top: 90px;
+
 }
-
 
 .jumbotron {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
