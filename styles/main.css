@@ -6,8 +6,9 @@
     text-decoration: underline;
 }
 
-header {
+#pageheader {
     min-height: 150px;
+    background-color: cyan;
 }
 
 li.nav-item.active {
@@ -17,7 +18,6 @@ li.nav-item.active {
 
 main {
     display: block;
-    padding-top: 200px;
     clear: both;
 
 }
