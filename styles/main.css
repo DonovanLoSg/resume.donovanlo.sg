@@ -1,6 +1,12 @@
- :root {
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif&display=swap');
+
+:root {
      --this-page-number: 1;
  }
+
+* {
+    font-family: 'PT Sans', sans-serif;
+}
 
 #navbarNav a:hover {
     text-decoration: underline;
