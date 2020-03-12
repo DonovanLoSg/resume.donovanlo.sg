@@ -1,6 +1,15 @@
+
 @import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif&display=swap');
 
-:root {
+            
+            
+            
+            
+            
+            
+            
+            
+sss:root {
      --this-page-number: 1;
  }
 
@@ -16,6 +25,9 @@
     min-height: 150px;
     background-color: cyan;
     clear: both;
+    display: block;
+    width: 60%;
+    text-align:
 }
 
 li.nav-item.active {
