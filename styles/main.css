@@ -6,9 +6,19 @@
     text-decoration: underline;
 }
 
+
+
 li.nav-item.active {
     font-weight: bolder;
     }
+
+#fillheader {height: 90px; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 
 .jumbotron {
