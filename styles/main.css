@@ -1,14 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif&display=swap');
 
-            
-            
-            
-            
-            
-            
-            
-            
 sss:root {
      --this-page-number: 1;
  }
@@ -17,10 +9,7 @@ sss:root {
     font-family: 'PT Sans', sans-serif;
 }
 
-#navbarNav a:hover {
-    text-decoration: underline;
-}
-
+/* Boostrap4 Component Navbar */
 #pageheader {
     min-height: 150px;
     background-color: cyan;
@@ -32,18 +21,42 @@ sss:root {
 
 li.nav-item.active {
     font-weight: bolder;
-    }
-
-
-main {
-    display: block;
-    margin-top: 150px;
-
 }
 
+
+/* iPad in landscape */
+@media screen and (orientation: landscape) {
+  #pageheader > nav > div > a > background-img { max-width:100%; height:auto}
+  
+}
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* To move the main contain lower as not to be covered by the header */
+main {
+    margin-top: 150px;
+}
+
+
+/* Boostrap4 Component Jumbotron /*
+
+ /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+ 
 .jumbotron {
-  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("/images/donovan.jpg");
+   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("/images/herobackground1920x1080.jpg");
 
   /* Set a specific height */
   height: 50%;
