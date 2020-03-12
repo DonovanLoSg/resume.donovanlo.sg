@@ -14,7 +14,9 @@ li.nav-item.active {
 
 
 main {
-    margin-top: 90px;
+    display: block;
+    padding-top: 200px;
+    clear: both;
 
 }
 
