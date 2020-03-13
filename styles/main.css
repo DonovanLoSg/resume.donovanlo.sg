@@ -6,19 +6,15 @@ sss:root {
 	font-family: 'PT Sans', sans-serif;
 }
 /* Boostrap4 Component Navbar */
-
 #pageheader {
-    min-height: 20vh;
-	max-height: 30vh;
-	background-color: #8AAFFF;
-	display: block;
-	clear: both;
-	width: 60%;
+    display: block;
+    clear: both;
+    background-color: white;
+    min-height: 100px;
+    max-height: 30vh
 }
 
-li.nav-item.active {
-	font-weight: bolder;
-}
+
 
 /* @media screen and (orientation: landscape) {
     #pageheader > nav > div > a > background-img { max-width:100%; height:auto}
