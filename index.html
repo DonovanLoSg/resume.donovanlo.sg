@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 
 <!-- Home Page -->
@@ -44,7 +43,7 @@ Header section
         Navbar component
         =========================================================================
         -->
-        <nav class="navbar fixed-top navbar-expand-md navbar-light xs-light" style="background-color: #8AAFFF"">
+        <nav class="navbar fixed-top navbar-expand-md navbar-light xs-light" style="background-color: #8AAFFF">
             <div class="container">
                 <!-- Logo -->
                 <a class="navbar-brand"
@@ -74,7 +73,7 @@ Main Content section
 =========================================================================
 -->
     
-</body>
+
     <main id="#pagemain">
 
         <!--
@@ -86,11 +85,11 @@ Main Content section
             <div class="text-white text-center rgba-stylish-strong py-5 px-4">
                 <div class="py-5">
                 <!-- Content -->
-                <h5 class="h5 orange-text"></i> Web Developer</h5>
+                <h5 class="h5 orange-text"> Web Developer</h5>
                 <h1 class="display-4">I am Donovan</h1>
                 <h2 class="card-title h2 my-4 py-2">Hire Me</h2>
                 <p class="mb-4 pb-2 px-md-5 mx-md-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur obcaecati vero aliquid libero doloribus ad, unde tempora maiores, ullam, modi qui quidem minima debitis perferendis vitae cumque et quo impedit.</p>
-                <a class="btn peach-gradient"></i> Hire Me</a>
+                <a class="btn peach-gradient"> Hire Me</a>
 
                 </div>
             </div>
@@ -103,7 +102,7 @@ Main Content section
                 <div class="col-12 col-md-8  order-md-1">
 
                     <!-- Intro / Bio -->
-                    <h1>Bio</h1>
+                    <h1 id="bio">Bio</h1>
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
@@ -112,7 +111,7 @@ Main Content section
                 <div class="col-12 col-md-8  order-md-2">
 
                     <!--- Value Proposition -->
-                    <h1>Value Proposition</h1>
+                    <h1 id="value-proposition">Value Proposition</h1>
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
@@ -121,13 +120,13 @@ Main Content section
                 <div class="col-12 col-sm-6 col-md-4  order-md-1">
 
                     <!-- Motivator -->
-                    <h1>Motivator</h1>
+                    <h1 id="motivator">Motivator</h1>
 
                     <ul>
                         <li>Lorem ipsum</li>
                         <li>Maecenas vestibulum</li>
-                        <li>Aliquam eget<li>
-                        <li>Sed auctor<li>
+                        <li>Aliquam eget</li>
+                        <li>Sed auctor</li>
                         <li>Pellentesque habitant</li>
                     </ul>
 
@@ -136,7 +135,7 @@ Main Content section
                 <div class="col-12 col-sm-6 col-md-4  order-md-2">
 
                     <!-- Interest -->
-                    <h1>Interest</h1>
+                    <h1 id="interest">Interest</h1>
                     
                     <ul>
                         <li>Quisque et</li>
@@ -151,10 +150,10 @@ Main Content section
             </div>
 
             <div class="row">
-
+                <div class="col text-center">
                 <!-- Testimonials -->
                 <h1>Testimonials</h1>
-
+                </div>
 
                 <!--
                 =========================================================================
@@ -192,10 +191,10 @@ Main Content section
 
                 <div class="col-12 col-md-4">
                     
-                    <!-- Testimonials -->
-                    <h1>Membership</h1>
+                    <!-- Membership -->
+                    <h1 id="membership">Membership</h1>
 
-                    <p>Mensa</p>
+                    <p>Society</p>
                 
                 </div>
 
@@ -208,7 +207,7 @@ Main Content section
 
                         <div class="col">
 
-                            <h1>Personality Test Result 1</h1>
+                            <h1 id="personality-test">Personality Test Result 1</h1>
 
                             <p>INTJ</p>
 
@@ -220,14 +219,14 @@ Main Content section
                             <p>INTJ</p>
 
                         </div>
-
+                    </div>
                 </div>
 
             </div>
 
 
 
-        <section>
+        </section>
 
         
 
@@ -274,22 +273,29 @@ Footer section
         Contact Me section
         =========================================================================
         -->
-
-        <section id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
-xxx
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-xxx
-                    </div>
-                    <div class="col-12 col-md-12 ">
-xxx
+        <div id="pagefootermiddle" class="container-fluid">
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-sm-4">
+                            <h1>Contact Information</h1>
+                            <p class="contactitem"><i class="fa fa-phone" aria-hidden="true"></i><span class="sr-only">Mobile</span> 
+                                <my-contact number-user="+65 9683" number-domain=" 6694">@</my-contact></p>
+                            <p class="contactitem"><i class="fa fa-envelope" aria-hidden="true"></i><span class="sr-only">Email</span> 
+                                <!-- Set data-user and data-domain as your  mail username and domain respectively -->
+                                <my-email data-user="donovan.lo" data-domain="mensa.org.sg">@</my-email></p>
+                            <p class="contactitem"><i class="fa fa-linkedin" aria-hidden="true"></i><span class="sr-only">LinkedIn</span><a href="https://linkedin.donovan.sg">https://linkedin.donovan.sg</a></p>
+                            <p class="contactitem"><i class="fa fa-user-circle-o" aria-hidden="true"></i><span class="sr-only">Profile</span><a href="https://www.donovanlo.sg">https://www.donovanlo.sg</a></p>
+                        </div>
+                        <div class="col-12 col-sm-8">
+                            <h1>Contact Me Form</h1>
+                            
+                        </div>
+ 
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
 
 
         <!--
@@ -298,7 +304,45 @@ xxx
         =========================================================================
         -->
         <nav aria-label="Site Map navigation">
-
+            <section id="footer-sitemap" class="container">
+                <ul class="row ">
+                    <li class="col-12 col-sm-6 col-md-3"><a href="index.html:" class="sitemap-header">Home</a>
+                        <ul class="footer-sitemap-li">
+                            <li><a href="index.html#bio">Bio</a></li>
+                            <li><a href="index.html#value-proposition">Value Proposition</a></li>
+                            <li><a href="index.html#motivator">Motivator</a></li>
+                            <li><a href="index.html#interest">Interest</a></li>
+                            <li><a href="index.html#testimonials">Testimonials</a></li>
+                            <li><a href="index.html#membership">Membership</a></li>
+                            <li><a href="index.html#personality-test">Personality Test Result</a></li>
+                        </ul>
+                    </li>
+                    <li class=" col-12 col-sm-6 col-md-3"><a href="resume.html" class="sitemap-header">Resume</a>
+                        <ul class="footer-sitemap-li">
+                            <li><a href="resume.html#objective">Objective</a></li>
+                            <li><a href="resume.html#relevant-summary">Relevant Skills</a></li>
+                            <li><a href="resume.html#past-working-experience">Past Working Experience</a></li>
+                            <li><a href="resume.html#education">Education</a></li>
+                            <li><a href="resume.html#skills">Skills</a></li>
+                            <li><a href="resume.html#certificates">Certificates</a></li>
+                            <li><a href="resume.html#volunteering-experience">Volunteering Experience</a></li>
+                        </ul>
+                    </li>
+                    <li class=" col-12 col-sm-6 col-md-3">
+                        <a href="portfolio.html" class="sitemap-header">Portfolio</a>
+                        <ul class=" footer-sitemap-li ">
+                            <li><a href="portfolio.html#project-1 ">Project #1</a></li>
+                            <li><a href="portfolio.html#project-2 ">Project #2</a></li>
+                            <li><a href="portfolio.html#project-3 ">Project #3</a></li>
+                            <li><a href="portfolio.html#project-4 ">Project #4</a></li>
+                        </ul>
+                    </li>
+                    <li class="sitemap-header">
+                            <li><a href="resume.html" class="download-resume">Download</a></li>
+                    </li>
+                </ul>
+                &nbsp;
+            </section>
         
 
         </nav>

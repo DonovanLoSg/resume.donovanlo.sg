@@ -7,6 +7,10 @@ sss:root {
 }
 h1 {
     font-family: 'PT Serif', serif;
+    font-size: 2rem;
+    color: red;
+    line-height: 1.67rem;
+    margin-top: 2rem;
 }
 
 /* Boostrap4 Component Navbar */ 
@@ -93,22 +97,66 @@ main {
         display: block;
     }
 
-	#footer {
-		font-family: 'PT Sans', san-serif;
-		background-color: #8AAFFF;
-		color: white;
-		font-size: 14px;
-		line-height: 1.67em;
+
+    #pagefooter {
+ 		line-height: 1.67em;
 		margin-top: 3em;
-	}
+
+    }
+
 
     #pagenavigation>ul>li>.page-link{
         border: 0px solid white;
     }
 
 
+	#pagefootermiddle {
+		font-family: 'PT Sans', san-serif;
+		background-color: #8AAFFF;
+		color: white;
+		margin-top: 3em;
+        margin-bottom: 3em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+	}
 
-	#contact-section div {
+    #pagefootmiddle.row {
+        margin-bottom: 2em;
+    }
+
+    .contactitem {
+
+        margin: 0px;
+        padding: 0px;
+        min-width: 400px;
+    }
+
+    .contactitem>i {
+        background-color: white;
+        color: #8AAFFF;
+        min-width: 40px;
+        line-height: 2rem;
+        text-align: center;
+        margin-right: 2px;
+    }
+
+    my-email::after {
+        content: attr(data-domain);
+    }
+    my-email::before {
+        content: attr(data-user);
+    }
+
+    my-contact::after {
+        content: attr(number-domain);
+    }
+    my-contact::before {
+        content: attr(number-user);
+    }
+
+
+
+	#footer-sitemap  {
 		border: 1px solid black;
 		background: white;
 	}
@@ -116,7 +164,7 @@ main {
 		list-style-type: none;
 	}
 	#footer-sitemap li a, #footer-sitemap li li a {
-		color: white;
+		color: #8AAFFF;
 	}
 	#footer-sitemap li a:hover, #footer-sitemap li li a:hover {
 		color: azure;
