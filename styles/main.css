@@ -101,6 +101,13 @@ main {
 		line-height: 1.67em;
 		margin-top: 3em;
 	}
+
+    #pagenavigation>ul>li>.page-link{
+        border: 0px solid white;
+    }
+
+
+
 	#contact-section div {
 		border: 1px solid black;
 		background: white;
