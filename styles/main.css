@@ -7,10 +7,11 @@ sss:root {
 }
 h1 {
     font-family: 'PT Serif', serif;
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: red;
     line-height: 1.67rem;
     margin-top: 2rem;
+    text-shadow: 1px 1px gray;
 }
 
 /* Boostrap4 Component Navbar */ 
@@ -99,9 +100,8 @@ main {
 
 
     #pagefooter {
- 		line-height: 1.67em;
-		margin-top: 3em;
-
+            margin-top: 2rem;
+            margin-bottom: 2rem; 
     }
 
 
@@ -114,8 +114,6 @@ main {
 		font-family: 'PT Sans', san-serif;
 		background-color: #8AAFFF;
 		color: white;
-		margin-top: 3em;
-        margin-bottom: 3em;
         padding-top: 1em;
         padding-bottom: 1em;
 	}
@@ -157,8 +155,9 @@ main {
 
 
 	#footer-sitemap  {
-		border: 1px solid black;
-		background: white;
+		font-family: 'PT Sans', san-serif;
+
+
 	}
 	#footer-sitemap ul {
 		list-style-type: none;
