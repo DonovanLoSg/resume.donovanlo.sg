@@ -50,11 +50,12 @@ main {
 
 /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
 	.jumbotron {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("/images/herobackground1920x1080.jpg");
+		background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("/images/heroimagecombi1920x500.png");
 		/* Set a specific height */
 		height: 50%;
 		/* Position and center the image to scale nicely on all screens */
-		background-position: center;
+        background-attachment: local;
+		background-position: center right;
 		background-repeat: no-repeat;
 		background-size: cover;
 		position: relative;
