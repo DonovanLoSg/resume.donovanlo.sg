@@ -54,10 +54,11 @@ main {
 		/* Set a specific height */
 		height: 50%;
 		/* Position and center the image to scale nicely on all screens */
-        background-attachment: local;
-		background-position: center right;
+        background-attachment: fixed;
+		background-position: center top 175px;
 		background-repeat: no-repeat;
-		background-size: cover;
+		background-size: 1920px 500px;
+
 		position: relative;
 		height: 500px;
 	}
