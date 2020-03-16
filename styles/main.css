@@ -19,8 +19,8 @@ h1 {
     display: block;
     clear: both;
     background-color: white;
-    min-height: 100px;
-    max-height: 25vh;
+    max-height: 20vh;
+    min-height: 75px;
 }
 
 
