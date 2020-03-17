@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif&display=swap');
-sss:root {
-	--this-page-number: 1;
-}
-* {
+
+
+{
 	font-family: 'PT Sans', sans-serif;
 }
+
 h1 {
     font-family: 'PT Serif', serif;
     font-size: 1.6rem;
@@ -14,53 +14,30 @@ h1 {
     text-shadow: 1px 1px gray;
 }
 
+
+
 /* Boostrap4 Component Navbar */ 
 #pageheader {
-    display: block;
-    clear: both;
-    background-color: white;
-    max-height: 20vh;
-    min-height: 75px;
+    background-color: blue;
 }
 
+.navbar {padding:0px; border:0px }
 
 
-/* @media screen and (orientation: landscape) {
-    #pageheader > nav > div > a > background-img { max-width:100%; height:auto}
-    nav > div > a > img {width:30%; height:30%} */
-
-/* To move the main content lower as not to be covered by the header */
-
-main {
-	margin-top: 176px;
-	/* include the bordes and margins of the navbar fixed top */
-}
-
-#pagemain {
-    margin-top: 176px !important;
-    }
-
-#pagemain .container {
-    border: 1px solid black !important;
-    margin: 5px !important; 
-    }
 
 
 /* Boostrap4 Component Jumbotron /*
 
 /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-	.jumbotron {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("/images/heroimagecombi1920x500.png");
-		/* Set a specific height */
-		height: 50%;
+	.hero-image {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../images/heroimagecombi1920x500.png");
 		/* Position and center the image to scale nicely on all screens */
-        background-attachment: fixed;
-		background-position: center top 175px;
+        background-position: center;
 		background-repeat: no-repeat;
-		background-size: 1920px 500px;
+        background-size: cover;
+        width: auto;
+        height: 500px;
 
-		position: relative;
-		height: 500px;
 	}
 	/* Place text in the middle of the image */
 	.hero-text {

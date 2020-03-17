@@ -12,6 +12,10 @@
 
 
 	<title>Donovan's Home Page</title>
+    
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="styles/reset.css">
+
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -30,7 +34,7 @@
 
 <body>
 
-	<!--
+<!--
 =========================================================================
 
 Header section
@@ -38,33 +42,52 @@ Header section
 =========================================================================
 -->
 
-	<header id="#pageheader">
+<header id="#pageheader" class="d-none d-sm-block">
+    <!-- Navbar component -->
+    <nav class="navbar navbar-expand-md navbar-light xs-light" style="background-color: #8AAFFF">
+        <div class="container">
+            <!-- logo -->
+            <a class="navbar-brand" href="index.html"><img src="images/donovanlogo150x131.png" height="150px" width="131px"/></a>
 
-		<!-- Navbar component -->
-		<nav class="navbar fixed-top navbar-expand-md navbar-light xs-light" style="background-color: #8AAFFF">
-			<div class="container">
-				<!-- Logo -->
-				<a class="navbar-brand"
-					href="index.html"><img src="images/donovanlogo150x131.png" height="150px" width="131px"/></a>
+                <!-- Hamburger -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                    </button>
+                <!-- Main Navigation -->
+                <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: flex-end">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item "><a class="nav-link" href="resume.html">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    </ul>
+               </div>    
+        </div>
+    </nav>
+</header>
 
-					<!-- Hamburger -->
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+<header id="#pageheader" class="d-block d-sm-none">
+    <!-- Navbar component -->
+    <nav class="navbar navbar-expand-md navbar-light xs-light" style="background-color: #8AAFFF">
+        <div class="container">
+            <!-- logo -->
+            <a class="navbar-brand" href="index.html"><img src="images/donovanlogo200x70.png" height="70px" width="200px"/></a>
 
-					<!-- Main Navigation -->
-					<div class="collapse navbar-collapse" id="navbarNav">
-						<ul class="navbar-nav">
-							<li class="nav-item active"><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li>
-							<li class="nav-item"><a class="nav-link"
-									href="resume.html">Resume</a></li>
-							<li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-						</ul>
-					</div>
-			</div>
-		</nav>
-	</header>
-	<!--
+                <!-- Hamburger -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                    </button>
+                <!-- Main Navigation -->
+                <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: flex-end">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item active"><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                        <li class="nav-item "><a class="nav-link" href="resume.html">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    </ul>
+               </div>    
+        </div>
+    </nav>
+</header>
+
+
+<!--
 =========================================================================
 
 Main Content section
@@ -72,23 +95,27 @@ Main Content section
 =========================================================================
 -->
 
+<main id="pagemain container">
 
-	<main id="#pagemain">
-
-		<div class="jumbotron jumbotron-fluid">
-            <div class="container text-white text-center rgba-stylish-strong py-5 px-4">
-  
-				<div class="py-5">
-					<!-- Content -->
-					<h5 class="h5 orange-text"> Web Developer</h5>
-					<h1 class="display-4">I am Donovan</h1>
-					<h2 class="card-title h2 my-4 py-2">Hire Me</h2>
-					
-
-				</div>
-			</div>
+    <div class=" jumbotron-fluid">
+        <div class="container hero-image">
+            <div class="row">
+                <div class="col">
+xxx
+                </div>
+                <div class="col">
+xxx
+                </div>
+            </div>
         </div>
-		<section class="container" id="myprofile">
+    </div>
+
+
+ 
+
+
+    <section class="container" id="myprofile">
+
 
 			<div class="row">
 
@@ -241,7 +268,7 @@ Footer section
 
 =========================================================================
 -->
-	<footer id="#pagefooter">
+	<footer id="pagefooter">
 
 		<!-- Pagination component -->
 
@@ -250,7 +277,7 @@ Footer section
 				<li class="page-item disabled">
 					<a class="page-link" aria-label="Previous" tabindex="-1">
 						<span aria-hidden="true"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></span>
-						<span class="sr-only">Previous</span> <!-- @@@ to edit accordingly for different page -->
+						<span class="sr-only">Previous</span> <!-- `@@ to edit accordingly for different page -->
 					</a>
 				</li>
 				<li class="page-item active"><a class="page-link">1 <span class="sr-only">(current)</span></a></li>
