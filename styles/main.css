@@ -165,13 +165,14 @@ h1 {
         padding-top: 1em;
         padding-bottom: 1em;
 	}
+    #pagefootermiddle {
 
-    #pagefootermiddle.row {
         margin-bottom: 2em;
+        padding-bottom: 2em;
     }
-
-    #pagefooter.page-item.disabled{
+    #pagenavigation > ul > li.page-item.disabled {
         color: silver;
+
     }
 
 
