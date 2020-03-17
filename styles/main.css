@@ -16,6 +16,15 @@ h1 {
     text-shadow: 1px 1px gray;
 }
 
+h2 {
+    font-family: 'PT Serif', serif;
+    font-size: 1.2rem;
+    color: red;
+    line-height: 1rem;
+    margin-top: 1rem;
+    text-shadow: 1px 1px gray;
+}
+
 
 
 /* Boostrap4 Component Navbar */ 
@@ -23,7 +32,7 @@ h1 {
     background-color: blue;
 }
 
-.navbar {padding:0px; border:0px }
+.navbar {padding:0px; border:0px; max-height: 200px }
 
 
 
