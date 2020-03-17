@@ -7,70 +7,116 @@
 
 body>div {1px solid black;}
 
-h1 {
+/* h1 {
     font-family: 'PT Serif', serif;
     font-size: 1.6rem;
     color: red;
     line-height: 1.67rem;
     margin-top: 2rem;
     text-shadow: 1px 1px gray;
-}
-
-h2 {
-    font-family: 'PT Serif', serif;
-    font-size: 1.2rem;
-    color: red;
-    line-height: 1rem;
-    margin-top: 1rem;
-    text-shadow: 1px 1px gray;
-}
+} */
 
 
 
 /* Boostrap4 Component Navbar */ 
-#pageheader {
+#pageheader1, #pageheader2{
     background-color: blue;
 }
 
 .navbar {max-height: 200px }
 
-#navbarNav a:linked, visited {
+.navbarlink a:linked, visited {
     text-decoration: none; font-weight: normal;
 }
 
-#navbarNav a:hover {
+.navbarlink a:hover {
     text-decoration: underline; font-weight: bold;
 }
 
-#navbarNav a:active {
+.navbarlink a:active {
     text-decoration: none; font-weight: bold;
 }
 
 
+.jumbotron {
+  background-image: url('../images/heroimagecombi1920x500.png');
+  background-size: cover;
+  max-height: 500px;
+  margin: 0px;
+  padding: 0px;
+}
 
-/* Boostrap4 Component Jumbotron /*
+.hero-image {
+    
+}
 
-/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-	.hero-image {
-		background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../images/heroimagecombi1920x500.png");
-		/* Position and center the image to scale nicely on all screens */
-        background-position: center;
-		background-repeat: no-repeat;
-        background-size: cover;
-        width: auto;
-        height: 500px;
+.hero-image-md {
+    text-align: right;
+}
 
-	}
-	/* Place text in the middle of the image */
-	.hero-text {
-		text-align: center;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		
-	}
-	
+
+.hero-text {
+    width: auto;
+    margin: auto;
+    background-color: black;
+    opacity:0.7;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.hero-text2 {
+    position: absolute;
+    left: 50%;
+    top: 320px;
+    width: auto;
+    margin: auto;
+    background-color: black;
+    opacity:0.7;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
+.title1 {
+    font-family: 'PT Serif', serif;
+    font-size: 5rem;
+    color: #8AAFFF;
+    line-height: 5rem;
+    text-shadow: 1px 1px whitesmoke;
+}
+
+
+.title2 {
+    font-family: 'PT Sans', san-serif;
+    font-size: 3rem;
+    color: #8AAFFF;
+    text-shadow: 1px 1px whitesmoke;
+}
+
+.title1-md {
+    font-family: 'PT Serif', serif;
+    font-size: 3rem;
+    color: #8AAFFF;
+    line-height: 3rem;
+    text-shadow: 1px 1px white;
+}
+
+
+.title2-md {
+    font-family: 'PT Sans', san-serif;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    color: #8AAFFF;
+    text-shadow: 1px 1px white;
+}
+
+.hero-text.lead {
+
+}
+
+
+
 /* Style for testimonial section of the home page */
 
     #testimonials .card-text {
