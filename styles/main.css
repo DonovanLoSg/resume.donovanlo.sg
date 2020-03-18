@@ -113,7 +113,8 @@ h1 {
     text-shadow: 1px 1px white;
 }
 
-.hero-text.lead {
+.hero-text
+    
 
 }
 
@@ -244,12 +245,14 @@ body {
     }
 
 
-##pagefooterbottom .container-fluid {                  
-        background-image: url("images/footersitemap1920x1080lowres.png");
+#sitemap-header  {                  
+        background-image: url("../images/footersitemap1920x1080lowres.png");
         background-size: cover;
-        margin: 0px;
-        padding: 0px;
-        border-radius: 0px;
+        width: 800px;
+        height: 800px;
+ 
+
+
 }    
 
 	#footer-sitemap  {
