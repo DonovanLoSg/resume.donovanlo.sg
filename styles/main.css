@@ -244,10 +244,17 @@ body {
     }
 
 
+##pagefooterbottom .container-fluid {                  
+        background-image: url("images/footersitemap1920x1080lowres.png");
+        background-size: cover;
+        margin: 0px;
+        padding: 0px;
+        border-radius: 0px;
+}    
 
 	#footer-sitemap  {
 		font-family: 'PT Sans', san-serif;
-
+        
 
 	}
 	#footer-sitemap ul {
