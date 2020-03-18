@@ -119,6 +119,14 @@ h1 {
 
 
 
+
+
+body {
+}
+
+
+
+
 /* Style for testimonial section of the home page */
 
     #testimonials .card-text {
@@ -128,7 +136,7 @@ h1 {
     }
     #testimonials .card-text {
         quotes: "“" "”" "‘" "’"";
-
+ 
     }
     #testimonials .card-text:before {
         content: open-quote;
@@ -146,6 +154,23 @@ h1 {
         color: gray;
         display: block;
     }
+
+
+
+
+
+#skills > ul > li  {margin-left:20px}
+
+#certificates > ul > li {margin-left:20px}
+
+#volunteering-experience > ul > li  {margin-left:20px}
+
+
+
+
+
+
+
 
 
     #pagefooter {
