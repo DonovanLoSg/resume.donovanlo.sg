@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif&display=swap');
+
+
+html {
+	height: 100%
+}
+
+h1 {
+	font-family: 'PT Serif', serif;
+	font-size: 1.6rem;
+	color: red;
+	line-height: 1.67rem;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	text-shadow: 1px 1px gray;
+}
+
+h4 {
+	color: red;
+	font-size: 1.2em;
+	margin-top: 3em;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: 1.2em;
+	margin: 0;
+	font-weight: bold;
+}
+
+.cc {
+	border-radius: 20px;
+	border-bottom: 1px solid silver;
+}
+
+/* Page Header gradient background */
+
+#pageheader {
+	background: #396afc;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2948ff, #396afc);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2948ff, #396afc);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+/* Boostrap4 Component Navbar */
+
+.navbar {
+	max-height: 200px;
+	border-radius: 0;
+}
+
+.navbarlink a:linked,
+visited {
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.navbarlink a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.navbarlink a:active {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Boostrap4 Component Jumbotron */
+
+.jumbotron {
+    background-image: url("../images/heroimagecombi1920x500.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #2948ff;
+	background-size: cover;
+	max-height: 500px;
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+}
+
+/* Responsive Hero Image */
+
+.hero-image-md {
+	text-align: right;
+}
+
+/* Responsive Text beside Hero Image */
+
+.hero-text {
+	width: auto;
+	margin: auto;
+	background-color: black;
+	opacity: 0.7;
+	padding: 20px;
+	border-radius: 20px;
+	min-width: 25vw;
+	text-align: center;
+}
+
+.hero-text2 {
+	position: absolute;
+	left: 50%;
+	top: 320px;
+	width: auto;
+	margin: auto;
+	background-color: black;
+	opacity: 0.7;
+	padding: 10px;
+	border-radius: 10px;
+	min-width: 25vw;
+	text-align: center;
+}
+
+.title1 {
+	font-family: 'PT Serif', serif;
+	font-size: 5rem;
+	color: #8AAFFF;
+	line-height: 5rem;
+	text-shadow: 1px 1px whitesmoke;
+}
+
+.title2 {
+	font-family: 'PT Sans', san-serif;
+	font-size: 3rem;
+	color: #8AAFFF;
+	text-shadow: 1px 1px whitesmoke;
+}
+
+.title1-md {
+	font-family: 'PT Serif', serif;
+	font-size: 3rem;
+	color: #8AAFFF;
+	line-height: 3rem;
+	text-shadow: 1px 1px white;
+}
+
+.title2-md {
+	font-family: 'PT Sans', san-serif;
+	font-size: 1.8rem;
+	line-height: 1.8rem;
+	color: #8AAFFF;
+	text-shadow: 1px 1px white;
+}
+
+
+
+body {
+	font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+	min-height: 100%;
+	padding-bottom: 20px;
+	background: #2980B9;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFFFFF, #deecfc, #b9ceeb);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFFFF, #deecfc, #b9ceeb);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/* Style for testimonial section of the home page */
+}
+
+/* Boostrap4 Component Cards Deck */
+#testimonials > div:first > div > div > p.card-text {
+
+    clear: both;
+}
+
+#testimonials .card-text {
+	font-family: "PT Serif", Serif;
+	font-style: italic;
+	text-align: center;
+}
+
+#testimonials .card-text {
+	quotes: "“" "”" "‘" "’"";
+
+}
+
+#testimonials .card-text:before {
+	content: open-quote;
+}
+
+#testimonials .card-text:after {
+	content: close-quote;
+}
+
+#testimonials .card-text:before,
+.card-body+.testimonials:after {
+	color: purple;
+}
+
+#testimonials .cite {
+	font-family: "PT Sans", sans-serif;
+	font-style: normal;
+	text-align: right;
+	color: gray;
+	display: block;
+}
+
+.card-body {
+	border: 1px solid lightgray;
+	border-radius: 40px;
+	margin: 2px;
+}
+
+/* Membership Card */
+
+#membershipcard {
+	width: 200px;
+	border: 10px solid white;
+	border-radius: 20px
+}
+
+/* Removing the 'dots' from the lists */
+
+#motivator>ul>li
+    list-style: none;
+}
+
+#interest>ul>li {
+    list-style: none;
+}
+
+#education>ul>li {
+	list-style: none;
+}
+
+#skills>ul>li {
+	list-style: none;
+}
+
+#certificates>ul>li {
+	list-style: none;
+}
+
+#volunteering-experience>ul>li {
+	list-style: none;
+}
+
+/* CSS Flex for Portfolio page */
+
+#portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between
+}
+
+#portfolio>div>div>div>img {
+	width: 600px;
+	height: auto;
+}
+
+/* Page Footer */
+
+#pagefooter {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+/* Boostrap4 Component Pagination */
+
+
+#pagenavigation>ul>li>.page-link {
+	border: 0px solid white;
+}
+
+
+#pagenavigation>ul>li.page-item.disabled {
+	color: black;
+}
+
+#pagefooterbottom {
+	background-image: url("../images/footersitemap1920x1080lowres.png");
+	background: darkblue;
+	padding-top: 2em;
+	padding-bottom: 4em;
+}
+
+/* Gradient background for part of footer */
+
+#pagefootermiddle {
+	font-family: 'PT Sans', san-serif;
+	background: #396afc;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2948ff, #396afc);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2948ff, #396afc);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: black;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+/* Contact Section */
+
+.contactitem {
+	background-color: #8AAFFF;
+	color: black;
+	margin: 0px;
+	padding: 0px;
+	min-width: 400px;
+}
+
+.contactitem>i {
+	color: black;
+	min-width: 40px;
+	line-height: 2rem;
+	text-align: center;
+	margin-right: 2px;
+}
+
+.contactitem>a {
+	color: black;
+	text-decoration: none;
+}
+
+.contactitem>a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+/* Site Map Responsive Layout */
+
+#footer-sitemap {
+	font-family: 'PT Sans', san-serif;
+	background-color: darkblue;
+	background-image: url("../images/footersitemap1920x1080lowres.png");
+	background-size: cover;
+}
+
+
+.sitemap-header {
+	font-weight: bold;
+	display: inline-block;
+	margin-bottom: 1em;
+}
+
+
+#footer-sitemap ul {
+	list-style-type: none;
+}
+
+#footer-sitemap li a,
+#footer-sitemap li li a {
+	color: #8AAFFF;
+}
+
+#footer-sitemap li a:hover,
+#footer-sitemap li li a:hover {
+	color: azure;
+	text-decoration: underline;
+}
+
+
+

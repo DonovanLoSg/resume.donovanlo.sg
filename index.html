@@ -1,54 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <!-- Home Page -->
-
 <head>
-
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-
-	<title>Donovan's Home Page</title>
-    
-    <!-- CSS Reset -->
-    <link rel="stylesheet" href="styles/reset.css">
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
-
-	<!-- Font Awesome 4-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<!-- CSS -->
-	<link href="styles/main.css" rel="stylesheet" />
-
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<title>Donovan's Home Page</title><!-- CSS Reset -->
+	<link href="css/reset.css" rel="stylesheet"><!-- Latest compiled and minified CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"><!-- CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"><!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet"><!-- Font Awesome 4-->
+	<link href="css/main.css" rel="stylesheet">
 </head>
-
 <body>
-
 <!--
 =========================================================================
 
 Header section
 
-Headers is visible or hidden depending on the size of the browser
-
 =========================================================================
 -->
-
-<header id="pageheader1" class="d-none d-xl-block">
+<header id="pageheader" >
     <a id="top"></a>
     <!-- Navbar component -->
     <nav class="navbar navbar-expand-md navbar-light xs-light" style="background-color: #8AAFFF">
         <div class="container">
             <!-- logo -->
-            <a class="navbar-brand img-fluid" href="index.html"><img src="images/donovanlogo150x131.png" /></a>
+            <a class="navbar-brand img-fluid" href="index.html"><img src="images/donovanlogo150x131.png" class="d-none d-xl-block"><img src="images/donovanlogo200x70.png" class="d-block d-xl-none"/></a>
 
 <!-- Hamburger -->
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
@@ -65,27 +44,8 @@ Headers is visible or hidden depending on the size of the browser
     </nav>
 </header>
 
-<header id="pageheader2" class="d-block d-xl-none">
-    <!-- Navbar component -->
-    <nav class="navbar navbar-expand-md navbar-light xs-light" style="background-color: #8AAFFF">
-        <div class="container">
-            <!-- logo -->
-            <a class="navbar-brand" href="index.html"><img src="images/donovanlogo200x70.png" height="70px" width="200px"/></a>
 
-                <!-- Hamburger -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-                    </button>
-                <!-- Main Navigation -->
-                <div class="navbarlink collapse navbar-collapse" id="navbarNav2" style="justify-content: flex-end">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li>
-                        <li class="nav-item "><a class="nav-link" href="resume.html">Resume</a></li>
-                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                    </ul>
-               </div>    
-        </div>
-    </nav>
-</header>
+
 
 <!--
 =========================================================================
@@ -94,300 +54,270 @@ Main Content section
 
 =========================================================================
 -->
-
-<main id="pagemain" >
-
-<div class="jumbotron " >
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="hero-text d-none d-md-block">
-                <p class="title2">Hello, I'm</p>
-                <p class="title1">Donovan</p>
-                <p class="title2">Web Developer</p>
-                <hr class="title2">
-                <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Employ Me</a>
-                </p>
-            </div>
-            <div class=" hero-image d-none d-md-block">
-                <img src="images/donovan343x500.png">
-            </div>
-            <div class="hero-text2 d-block d-md-none">
-                <p class="title2-md">Hello, I'm</p>
-                <p class="title1-md">Donovan</p>
-                <p class="title2-md">Web Developer</p>
-                <hr class="title2-md">
-                <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="#" role="button">Employ Me</a>
-                </p>
-            </div>
-            <div class=" hero-image-md d-block d-md-none">
-                <img src="images/donovan343x500.png">
-            </div>
-        </div>
-    </div>
-</div>
-
-<section  id="myprofile">
-    <div class="container">
-
-        <div class="row">
-            <div class="col-12 col-md-8  order-md-1">
-                <!-- Intro / Bio -->
-                <h1 id="bio">Bio</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="col-12 col-md-8  order-md-2">
-                <!--- Value Proposition -->
-                <h1 id="value-proposition">Value Proposition</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4  order-md-1">
-                <!-- Motivator -->
-                <h1 id="motivator">Motivator</h1>
-                <ul>
-                    <li>Leadership needs to be about helping others become the best they can be</li>
-                    <li>One’s mind, once stretched by a new idea, never regains its original dimensions.</li>
-                    <li>Knowledge not shared is knowledge wasted.</li>
-                    <li>Ideas built on Ideas.</li>
-                    <li>A question worth answering more than once is an answer that should be recorded down somewhere.</li>
-                    <li>Just when the caterpillar thought the world was over, it became a butterfly.</li>
-                </ul>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4  order-md-2">
-                <!-- Interest -->
-                <h1 id="interest">Interest</h1>
-                <ul>
-                    <li>Quisque et</li>
-                    <li>Pellentesque mattis</li>
-                    <li>Donec tortor</li>
-                    <li>Pellentesque bibendum</li>
-                    <li>Nunc eu</li>
-                </ul>
-            </div>
-        </div>
-
-
- 
-            
-        <div class="row">
-            <div>
-                <!-- Testimonials -->
-                <h1>Testimonials</h1>
-            </div>
-        </div>
-        <div class="row">
-            <!-- Card component  -->
-
-        <div class="card-deck " id="testimonials">
-            <div class="col-12 col-xm-6 col-md-3 ">
-                <div class="card">
-                    <div class="card-body">
-                        <p class="card-text">I got to know Donovan while volunteering at the Stroke Support Station. And I have worked with him (seen him work) on several occasions.<br><br> I found Donovan to be a strategic leader that knows how to articulate his thoughts well. A man with few words but a big heart and passion to serve.</p>
-                        <p class="cite">- <a href="https://sg.linkedin.com/in/danielyeosp" target="_blank">Daniel Yeo, Founder, Mindful Leadership Program</a></p>
-                    </div>
-                </div>
-             </div>
-             <div class="col-12 col-xm-12 col-md-6">
-
-                <div class="card">
-                    <div class="card-body">
-                        <p class="card-text">When I first joined Action for AIDS as a programme coordinator about 10 years ago, Mr. Donovan Lo was my immediate reporting superior. He was later promoted to become the executive director, it is commendable for Mr. Lo's way of interacting with the employees and the actions he takes to encourage our team's success.<br><br>
-
-                        As a public health programmer specializing in partnerships and advocacy, I am continually amazed by the skills he possess to navigate in this complex field. He is always willing to mentor on questions related to programme design and the coordination and mobilisation of stakeholders.<br><br>
-
-                        During his term as the executive director, Donovan was a key player in the success of the programmes, but his long-term planning have helped paved the way for the organisation to grow, and today we are continue to play an important role in the prevention of new HIV infection, and ultimately the ending of HIV transmission and AIDS in Singapore by 2030.</p>
-                        <p class="cite">-Avin Tan, Advocacy and partnerships manager, <br>
-                            <a href="https://afa.org.sg/" target="_blank">Action for AIDS</a></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-xm-6 col-md-3 ">
-                <div class="card ">
-                    <div class="card-body">
-                        <p class="card-text">Mr Donovan Lo is an adviser for Lotus Eldercare and I have worked with Mr Lo on several projects to date. Mr Lo works well under pressure and is very approachable and relatable at work. <br>
-                        Mr Lo works very well with his superiors and subordinate alike and is well liked by all.  He is very systemic and thorough in problem solving and has a deep sense of responsibility.</p>
-                        <p class="cite">-Dr Tan Jit Seng, Director,<br>
-                        <a href="https://www.lotuseldercare.com.sg/" target="_blank">Lotus Elder Care</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-4">
-                <!-- Membership -->
-                <h1 id="membership">Membership</h1>
-                <p><h3>Mensa Singapore</h3></p>
-                <p><img src="images/membershipcard.png" id="membershipcard"></p>
-            </div>
-
-            <div class="col-12 col-md-8">
-                <!-- Personality Test Results -->
-                <div class="row">
-                    <div class="col">
-                        <h1 id="personality-test">Myers–Briggs Type Indicator</h1>
-                        <p><h3>The Architect - INTJ</h3></p>
-                        <p><img src="images/architect.png"></p>
-                    </div>
-                    <div class="col">
-                        <h1>DISC Profile</h1>
-                        <p></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-     
-    </div>
-</section>
-
-</main>
-<!--
+	<main id="pagemain">
+		<div class="jumbotron">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="hero-text d-none d-md-block">
+						<p class="title2">Hello, I'm</p>
+						<p class="title1">Donovan</p>
+						<p class="title2">Web Developer</p>
+						<hr class="title2">
+						<p class="lead"><a class="btn btn-primary btn-lg" href="#" role="button">Employ Me</a></p>
+					</div>
+					<div class=" hero-image d-none d-md-block"><img src="images/donovan343x500.png"></div>
+					<div class="hero-text2 d-block d-md-none">
+						<p class="title2-md">Hello, I'm</p>
+						<p class="title1-md">Donovan</p>
+						<p class="title2-md">Web Developer</p>
+						<hr class="title2-md">
+						<p class="lead"><a class="btn btn-primary btn-lg" href="#" role="button">Employ Me</a></p>
+					</div>
+					<div class=" hero-image-md d-block d-md-none"><img src="images/donovan343x500.png"></div>
+				</div>
+			</div>
+		</div>
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-8 order-md-1">
+						<!-- Intro / Bio -->
+						<h1 id="bio">Bio</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="col-12 col-md-8 order-md-2">
+						<!--- Value Proposition -->
+						<h1 id="value-proposition">Value Proposition</h1>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4 order-md-1">
+						<!-- Motivator -->
+						<h1 id="motivator">Motivator</h1>
+						<ul>
+							<li>Leadership needs to be about helping others become the best they can be</li>
+							<li>One’s mind, once stretched by a new idea, never regains its original dimensions.</li>
+							<li>Knowledge not shared is knowledge wasted.</li>
+							<li>Ideas built on Ideas.</li>
+							<li>A question worth answering more than once is an answer that should be recorded down somewhere.</li>
+							<li>Just when the caterpillar thought the world was over, it became a butterfly.</li>
+						</ul>
+					</div>
+					<div class="col-12 col-sm-6 col-md-4 order-md-2">
+						<!-- Interest -->
+						<h1 id="interest">Interest</h1>
+						<ul>
+							<li>Quisque et</li>
+							<li>Pellentesque mattis</li>
+							<li>Donec tortor</li>
+							<li>Pellentesque bibendum</li>
+							<li>Nunc eu</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div>
+						<!-- Testimonials -->
+						<h1>Testimonials</h1>
+					</div>
+				</div>
+				<div class="row">
+					<!-- Card component  -->
+					<div class="card-deck" id="testimonials">
+						<div class="col-12 col-sm-6 col-lg-3">
+							<div class="card">
+								<div class="card-body">
+									<p class="card-text">I got to know Donovan while volunteering at the Stroke Support Station. And I have worked with him (seen him work) on several occasions.<br>
+									<br>
+									I found Donovan to be a strategic leader that knows how to articulate his thoughts well. A man with few words but a big heart and passion to serve.</p>
+									<p class="cite">- <a href="https://sg.linkedin.com/in/danielyeosp" target="_blank">Daniel Yeo, Founder, Mindful Leadership Program</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-lg-3">
+							<div class="card">
+								<div class="card-body">
+									<p class="card-text">Mr Donovan Lo is an adviser for Lotus Eldercare and I have worked with Mr Lo on several projects to date. Mr Lo works well under pressure and is very approachable and relatable at work.<br>
+									Mr Lo works very well with his superiors and subordinate alike and is well liked by all. He is very systemic and thorough in problem solving and has a deep sense of responsibility.</p>
+									<p class="cite">-Dr Tan Jit Seng, Director,<br>
+									<a href="https://www.lotuseldercare.com.sg/" target="_blank">Lotus Elder Care</a></p>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-12 col-lg-6 order-sm-1">
+							<div class="card">
+								<div class="card-body">
+									<p class="card-text">When I first joined Action for AIDS as a programme coordinator about 10 years ago, Mr. Donovan Lo was my immediate reporting superior. He was later promoted to become the executive director, it is commendable for Mr. Lo's way of interacting with the employees and the actions he takes to encourage our team's success.<br>
+									<br>
+									As a public health programmer specializing in partnerships and advocacy, I am continually amazed by the skills he possess to navigate in this complex field. He is always willing to mentor on questions related to programme design and the coordination and mobilisation of stakeholders.<br>
+									<br>
+									During his term as the executive director, Donovan was a key player in the success of the programmes, but his long-term planning have helped paved the way for the organisation to grow, and today we are continue to play an important role in the prevention of new HIV infection, and ultimately the ending of HIV transmission and AIDS in Singapore by 2030.</p>
+									<p class="cite">-Avin Tan, Advocacy and partnerships manager,<br>
+									<a href="https://afa.org.sg/" target="_blank">Action for AIDS</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<!-- Membership -->
+						<h1 id="membership">Membership</h1>
+						<p></p>
+						<h3>Mensa Singapore</h3>
+						<p></p>
+						<p><img id="membershipcard" src="images/membershipcard.png"></p>
+					</div>
+					<div class="col-12 col-md-8">
+						<!-- Personality Test Results -->
+						<div class="row">
+							<div class="col">
+								<h1 id="personality-test">Myers–Briggs Type Indicator</h1>
+								<p></p>
+								<h3>The Architect - INTJ</h3>
+								<p></p>
+								<p><img src="images/architect.png"></p>
+							</div>
+							<div class="col">
+								<h1>DISC Profile</h1>
+								<p></p>
+							</div>
+						</div>
+					</div>
+				</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</div>
+		</section>
+	</main><!--
 =========================================================================
 Footer section
 =========================================================================
 -->
-    <footer id="pagefooter">
-        <!-- Pagination component -->
-        <nav aria-label="Page navigation" id="pagenavigation">
-            <ul class="pagination pagination-circle pg-blue pagination-md justify-content-center">
-                <li class="page-item disabled">
-                    <a class="page-link" aria-label="Previous" tabindex="-1">
-                        <span aria-hidden="true"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></span>
-                        <span class="sr-only">Previous</span> <!-- `@@ to edit accordingly for different page -->
-                    </a>
-                </li>
-                <li class="page-item active"><a class="page-link">1 <span class="sr-only">(current)</span></a></li>
-                <!-- @@@ to edit accordingly for different page -->
-                <li class="page-item"><a class="page-link" href="resume.html#top">2</a></li>
-                <li class="page-item"><a class="page-link" href="portfolio.html#top">3</a></li>
-                <li class="page-item">
-                    <a class="page-link" aria-label="Next" href="resume.html#top">
-                        <span aria-hidden="true"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <!-- Contact Me section -->
-        <div id="pagefootermiddle" class="container-fluid">
-            <section>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-sm-4">
-                            <h1>Contact Information</h1>
-                            <p class="contactitem">
-                                <i class="fa fa-phone-square" aria-hidden="true"></i><span class="sr-only">Mobile</span>
-                                <my-contact number-user="+65 9683" number-domain=" 6694"></my-contact>
-                            </p>
-                            <p class="contactitem">
-                                <i class="fa fa-envelope" aria-hidden="true"></i><span class="sr-only">Email</span>
-                                <!-- Set data-user and data-domain as your  mail username and domain respectively -->
-                                <my-email data-user="donovan.lo" data-domain="mensa.org.sg">@</my-email>
-                            </p>
-                            <p class="contactitem">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i><span class="sr-only">LinkedIn</span> <a
-                                    href="https://linkedin.donovan.sg">https://linkedin.donovan.sg</a></p>
-                            <p class="contactitem">
-                                <i class="fa fa-user-circle-o" aria-hidden="true"></i><span class="sr-only">Profile</span> <a
-                                    href="https://www.donovanlo.sg">https://www.donovanlo.sg</a></p>
-                        </div>
-                        <div class="col-12 col-sm-8">
-                            <h1>Contact Me Form</h1>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-
-
-        <!-- Site Map Navigation -->
-        <nav aria-label="Site Map navigation" id="pagefooterbottom"">
-        <div id="footer-sitemap" class="container-fluid">
-            <section class="container">
-                <ul class="row ">
-                    <li class="col-12 col-sm-6 col-md-4"><a href="index.html#top" class="sitemap-header">Home</a>
-                        <ul class="footer-sitemap-li">
-                            <li><a href="index.html#bio">Bio</a></li>
-                            <li><a href="index.html#value-proposition">Value Proposition</a></li>
-                            <li><a href="index.html#motivator">Motivator</a></li>
-                            <li><a href="index.html#interest">Interest</a></li>
-                            <li><a href="index.html#testimonials">Testimonials</a></li>
-                            <li><a href="index.html#membership">Membership</a></li>
-                            <li><a href="index.html#personality-test">Personality Test Result</a></li>
-                        </ul>
-                    </li>
-                    <li class=" col-12 col-sm-6 col-md-4"><a href="resume.html#top" class="sitemap-header">Resume</a>
-                        <ul class="footer-sitemap-li">
-                            <li><a href="resume.html#objective">Objective</a></li>
-                            <li><a href="resume.html#relevant-summary">Relevant Skills</a></li>
-                            <li><a href="resume.html#past-working-experience">Past Working Experience</a></li>
-                            <li><a href="resume.html#education">Education</a></li>
-                            <li><a href="resume.html#skills">Skills</a></li>
-                            <li><a href="resume.html#certificates">Certificates</a></li>
-                            <li><a href="resume.html#volunteering-experience">Volunteering Experience</a></li>
-                        </ul>
-                    </li>
-                    <li class=" col-12 col-sm-6 col-md-4">
-                        <a href="portfolio.html#top" class="sitemap-header">Portfolio</a>
-                        <ul class=" footer-sitemap-li ">
-                            <li><a href="portfolio.html#project-1 ">Project #1</a></li>
-                            <li><a href="portfolio.html#project-2 ">Project #2</a></li>
-                            <li><a href="portfolio.html#project-3 ">Project #3</a></li>
-                            <li><a href="portfolio.html#project-4 ">Project #4</a></li>
-                            <br><br>
-                            <li class="sitemap-header"><a href="resume.html" class="download-resume">Download Resume</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                 
-            </section>
-            </div>
-        </nav>
-
- 
- 
- 
-    </footer>
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
+	<footer id="pagefooter">
+		<!-- Pagination component -->
+		<nav aria-label="Page navigation" id="pagenavigation">
+			<ul class="pagination pagination-circle pg-blue pagination-md justify-content-center">
+				<li class="page-item disabled">
+					<a aria-label="Previous" class="page-link" tabindex="-1"><span aria-hidden="true"><i aria-hidden="true" class="fa fa-chevron-circle-left"></i></span> <span class="sr-only">Previous</span> <!-- `@@ to edit accordingly for different page --></a>
+				</li>
+				<li class="page-item active">
+					<a class="page-link">1 <span class="sr-only">(current)</span></a>
+				</li><!-- @@@ to edit accordingly for different page -->
+				<li class="page-item">
+					<a class="page-link" href="resume.html#top">2</a>
+				</li>
+				<li class="page-item">
+					<a class="page-link" href="portfolio.html#top">3</a>
+				</li>
+				<li class="page-item">
+					<a aria-label="Next" class="page-link" href="resume.html#top"><span aria-hidden="true"><i aria-hidden="true" class="fa fa-chevron-circle-right"></i></span> <span class="sr-only">Next</span></a>
+				</li>
+			</ul>
+		</nav><!-- Contact Me section -->
+		<div class="container-fluid" id="pagefootermiddle">
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-sm-4">
+							<h1>Contact Information</h1>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-phone-square"></i><span class="sr-only">Mobile</span> (65) 9683 6694 </p>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-envelope"></i><span class="sr-only">Email</span> <a href="mailto:donovan.lo@mensa.org.sg">donovan.lo@mensa.org.sg</a></p>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span> <a href="https://linkedin.donovan.sg">https://linkedin.donovan.sg</a></p>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-user-circle-o"></i><span class="sr-only">Profile</span> <a href="https://www.donovanlo.sg">https://www.donovanlo.sg</a></p>
+						</div>
+						<div class="col-12 col-sm-8">
+							<h1>Contact Me Form</h1>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div><!-- Site Map Navigation -->
+		<nav aria-label="Site Map navigation" id="pagefooterbottom">
+			<div class="container-fluid" id="footer-sitemap">
+				<section class="container">
+					<ul class="row">
+						<li class="col-12 col-sm-6 col-md-4">
+							<a class="sitemap-header" href="index.html#top">Home</a>
+							<ul class="footer-sitemap-li">
+								<li>
+									<a href="index.html#bio">Bio</a>
+								</li>
+								<li>
+									<a href="index.html#value-proposition">Value Proposition</a>
+								</li>
+								<li>
+									<a href="index.html#motivator">Motivator</a>
+								</li>
+								<li>
+									<a href="index.html#interest">Interest</a>
+								</li>
+								<li>
+									<a href="index.html#testimonials">Testimonials</a>
+								</li>
+								<li>
+									<a href="index.html#membership">Membership</a>
+								</li>
+								<li>
+									<a href="index.html#personality-test">Personality Test Result</a>
+								</li>
+							</ul>
+						</li>
+						<li class=" col-12 col-sm-6 col-md-4">
+							<a class="sitemap-header" href="resume.html#top">Resume</a>
+							<ul class="footer-sitemap-li">
+								<li>
+									<a href="resume.html#objective">Objective</a>
+								</li>
+								<li>
+									<a href="resume.html#relevant-summary">Relevant Skills</a>
+								</li>
+								<li>
+									<a href="resume.html#past-working-experience">Past Working Experience</a>
+								</li>
+								<li>
+									<a href="resume.html#education">Education</a>
+								</li>
+								<li>
+									<a href="resume.html#skills">Skills</a>
+								</li>
+								<li>
+									<a href="resume.html#certificates">Certificates</a>
+								</li>
+								<li>
+									<a href="resume.html#volunteering-experience">Volunteering Experience</a>
+								</li>
+							</ul>
+						</li>
+						<li class=" col-12 col-sm-6 col-md-4">
+							<a class="sitemap-header" href="portfolio.html#top">Portfolio</a>
+							<ul class=" footer-sitemap-li">
+								<li>
+									<a href="portfolio.html#project-1">Project #1</a>
+								</li>
+								<li>
+									<a href="portfolio.html#project-2">Project #2</a>
+								</li>
+								<li>
+									<a href="portfolio.html#project-3">Project #3</a>
+								</li>
+								<li>
+									<a href="portfolio.html#project-4">Project #4</a>
+								</li>
+								<li style="list-style: none"><br>
+								<br></li>
+								<li class="sitemap-header">
+									<a class="download-resume" href="resume.html">Download Resume</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</nav>
+	</footer><!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script> <!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
+	</script> <!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+	</script>
 </body>
-
-</html>
+</html> 
