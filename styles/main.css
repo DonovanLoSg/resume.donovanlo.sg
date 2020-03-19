@@ -28,6 +28,15 @@ h5 {
     margin: 0em;
     font-weight: bold;}
 
+.cc {
+    border-radius: 20px
+    border-bottom: 1px solid silver;
+
+
+
+}
+
+
 
 /* Boostrap4 Component Navbar */ 
 #pageheader1, #pageheader2{
@@ -128,15 +137,19 @@ h5 {
 
 }
 
+html { height: 100% }
+body { 
+
+   min-height: 100% 
+
+ padding-bottom: 20px;
+
+background: #2980B9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
-
-
-body {
 }
-
-
-
 
 /* Style for testimonial section of the home page */
 
@@ -230,14 +243,15 @@ body {
 
 
     .contactitem {
-
+        background-color: #8AAFFF;
+        color: black;
         margin: 0px;
         padding: 0px;
         min-width: 400px;
     }
 
     .contactitem>i {
-        background-color: white;
+
         color: black;
         min-width: 40px;
         line-height: 2rem;
@@ -270,23 +284,14 @@ body {
     }
 
 
-#sitemap-header  {                  
-        background-image: url("../images/footersitemap1920x1080lowres.png");
-        background-size: cover;
-        width: 800px;
-        height: 800px;
 
-
-}    
-
-
-}
 
 
 
 #footer-sitemap 
 {background-color: darkblue;
-
+background-image: url("../images/footersitemap1920x1080lowres.png");
+        background-size: cover;
 
 }
 
@@ -312,7 +317,7 @@ padding-bottom: 4em;}
 	}
 	#footer-sitemap li a:hover, #footer-sitemap li li a:hover {
 		color: azure;
-		background: grey;
+		text-transformation: underline;
 	}
 	.sitemap-header {
 		font-weight: bold;
