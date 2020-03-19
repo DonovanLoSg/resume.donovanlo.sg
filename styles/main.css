@@ -17,6 +17,16 @@ h1 {
     text-shadow: 1px 1px gray;
 }
 
+h4 {
+    color: red;
+    font-size: 1.2em;
+    margin-top: 3em 0 0 0;
+    font-weight: bold;}
+
+h5 {
+    font-size: 1.2em;
+    margin: 0em;
+    font-weight: bold;}
 
 
 /* Boostrap4 Component Navbar */ 
@@ -155,6 +165,13 @@ body {
         color: gray;
         display: block;
     }
+
+
+    #membershipcard {
+        width: 200px;   
+        border: 10px solid white;
+        border-radius: 20px}
+
 
 
 
