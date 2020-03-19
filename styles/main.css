@@ -39,8 +39,15 @@ h5 {
 
 
 /* Boostrap4 Component Navbar */ 
+
+
+
+/* Boostrap4 Component Navbar */ 
 #pageheader1, #pageheader2{
-    background-color: blue;
+   background: #396afc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 .navbar {max-height: 200px;  border-radius: 0px; }
@@ -83,6 +90,7 @@ h5 {
     opacity:0.7;
     padding: 20px;
     border-radius: 20px;
+    min-width: 25vw;
 }
 
 .hero-text2 {
@@ -95,6 +103,7 @@ h5 {
     opacity:0.7;
     padding: 10px;
     border-radius: 10px;
+        min-width: 25vw;
 }
 
 
@@ -145,9 +154,8 @@ body {
  padding-bottom: 20px;
 
 background: #2980B9;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+background: -webkit-linear-gradient(to right, #FFFFFF, #deecfc, #b9ceeb);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFFFFF, #deecfc, #b9ceeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -178,6 +186,12 @@ background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+
         color: gray;
         display: block;
     }
+
+card-body {border: 1px solid lightgray; curve-radius: 20px; margin-right:2px; margin-left: 2px;}
+
+
+
+
 
 
     #membershipcard {
@@ -229,7 +243,10 @@ background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+
 
 	#pagefootermiddle {
 		font-family: 'PT Sans', san-serif;
-		background-color: #8AAFFF;
+ background: #396afc;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 		color: black;
         padding-top: 1em;
         padding-bottom: 2em;
