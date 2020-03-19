@@ -5,7 +5,9 @@ html {
 	height: 100%
 }
 
-h1 {
+
+
+/* h1 {
 	font-family: 'PT Serif', serif;
 	font-size: 1.6rem;
 	color: red;
@@ -13,13 +15,20 @@ h1 {
 	margin-top: 2rem;
 	margin-bottom: 1rem;
 	text-shadow: 1px 1px gray;
-}
+} */
 
-h4 {
-	color: red;
-	font-size: 1.2em;
-	margin-top: 3em;
+h1 {
+	font-family: Helvetical, sans-serif;
+	display: inline-block;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	background-color: #ff00d0;
+    color: white;
+	padding: 5px 20px;
+	border-radius: 0px 20px 0px 20px;
 	font-weight: bold;
+    text-shadow: 1px 1px gray;
 }
 
 h5 {
@@ -51,22 +60,29 @@ h5 {
 .navbar {
 	max-height: 200px;
 	border-radius: 0;
+    font-size: 20px;
 }
 
 .navbarlink a:linked,
 visited {
 	text-decoration: none;
 	font-weight: normal;
-}
+    font-size: 20px;}
 
 .navbarlink a:hover {
 	text-decoration: underline;
 	font-weight: bold;
+    font-size: 20px;
 }
 
 .navbarlink a:active {
 	text-decoration: none;
 	font-weight: bold;
+    font-size: 20px;
+}
+
+.navlink {
+    font-size: 20px;
 }
 
 /* Boostrap4 Component Jumbotron */
@@ -222,7 +238,7 @@ body {
 
 #motivator+ul>li::before {
     content: "“" 
-}"”" "‘" "’""
+}
 
 #motivator+ul>li::after {
     content: "”" 
