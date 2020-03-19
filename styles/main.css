@@ -219,7 +219,7 @@ body {
 		background-color: #8AAFFF;
 		color: white;
         padding-top: 1em;
-        padding-bottom: 1em;
+
 	}
     #pagefootermiddle {
 
@@ -278,10 +278,17 @@ body {
         background-size: cover;
         width: 800px;
         height: 800px;
- 
-
-
 }    
+
+
+}
+
+
+
+#footer-sitemap {background: darkblue}
+
+
+
 
 	#footer-sitemap  {
 		font-family: 'PT Sans', san-serif;
