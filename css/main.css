@@ -20,13 +20,14 @@ html {
 h1 {
 	font-family: Helvetical, sans-serif;
 	display: inline-block;
-	font-size: 30px;
+	font-size: 20px;
+    line-height: 22px;
 	margin-top: 50px;
 	margin-bottom: 30px;
 	background-color: #ff00d0;
     color: white;
-	padding: 5px 20px;
-	border-radius: 0px 20px 0px 20px;
+	padding: 4px 25px;
+	border-radius: 0 25px 0 25px;
 	font-weight: bold;
     text-shadow: 1px 1px gray;
 }
@@ -52,6 +53,7 @@ h5 {
 	background: linear-gradient(to right, #2948ff, #396afc);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 
 
 
@@ -81,9 +83,6 @@ visited {
     font-size: 20px;
 }
 
-.navlink {
-    font-size: 20px;
-}
 
 /* Boostrap4 Component Jumbotron */
 
@@ -179,10 +178,11 @@ body {
 	/* Style for testimonial section of the home page */
 }
 
-/* Boostrap4 Component Cards Deck */
-#testimonials > div:first > div > div > p.card-text {
-
+    /* Boostrap4 Component Cards Deck */
+    #testimonials > div:first > div > div > p.card-text {
+text-shadow: 0 0 2px 2px gray;
     clear: both;
+    text-align: justify;
 }
 
 #testimonials .card-text {
@@ -218,9 +218,9 @@ body {
 }
 
 .card-body {
-	border: 1px solid lightgray;
 	border-radius: 40px;
 	margin: 2px;
+    shadow:
 }
 
 /* Membership Card */
