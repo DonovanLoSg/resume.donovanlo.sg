@@ -217,17 +217,14 @@ body {
 	#pagefootermiddle {
 		font-family: 'PT Sans', san-serif;
 		background-color: #8AAFFF;
-		color: white;
+		color: black;
         padding-top: 1em;
+        padding-bottom: 2em;
 
 	}
-    #pagefootermiddle {
 
-        margin-bottom: 2em;
-        padding-bottom: 2em;
-    }
     #pagenavigation > ul > li.page-item.disabled {
-        color: silver;
+        color: black;
 
     }
 
@@ -241,7 +238,7 @@ body {
 
     .contactitem>i {
         background-color: white;
-        color: #8AAFFF;
+        color: black;
         min-width: 40px;
         line-height: 2rem;
         text-align: center;
@@ -249,12 +246,12 @@ body {
     }
 
     .contactitem>a {
-        color: white;
+        color:black;
         text-decoration: none;
     }
 
     .contactitem>a:hover {
-        color: white;
+        color: black;
         text-decoration: underline;
     }
 
@@ -278,6 +275,8 @@ body {
         background-size: cover;
         width: 800px;
         height: 800px;
+
+
 }    
 
 
@@ -285,8 +284,18 @@ body {
 
 
 
-#footer-sitemap {background: darkblue}
+#footer-sitemap 
+{background-color: darkblue;
 
+
+}
+
+#pagefooterbottom{ 
+    background-image: url("../images/footersitemap1920x1080lowres.png");
+    
+    background:darkblue;
+padding-top:2em; 
+padding-bottom: 4em;}
 
 
 
@@ -309,5 +318,5 @@ body {
 		font-weight: bold;
 		display: inline-block;
 		margin-bottom: 1em;
-		margin-top: 2em;
+
 	}
