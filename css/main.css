@@ -215,21 +215,34 @@ body {
 	border-radius: 20px
 }
 
+#motivator+ul+li {
+    text-align: center;
+}
+
+
+#motivator+ul>li::before {
+    content: "“" 
+}"”" "‘" "’""
+
+#motivator+ul>li::after {
+    content: "”" 
+}
+
 /* Removing the 'dots' from the lists */
 
-#motivator>ul>li
+#motivator+ul>li {
     list-style: none;
 }
 
-#interest>ul>li {
+#value-proposition+ul>li {
     list-style: none;
 }
 
-#education>ul>li {
+#education#ul>li{
 	list-style: none;
 }
 
-#skills>ul>li {
+#skills#ul>li {
 	list-style: none;
 }
 
@@ -328,7 +341,7 @@ body {
 #footer-sitemap {
 	font-family: 'PT Sans', san-serif;
 	background-color: darkblue;
-	background-image: url("../images/footersitemap1920x1080lowres.png");
+
 	background-size: cover;
 }
 
