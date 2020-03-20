@@ -38,10 +38,7 @@ h5 {
 	font-weight: bold;
 }
 
-.cc {
-	border-radius: 20px;
-	border-bottom: 1px solid silver;
-}
+
 
 /* Page Header gradient background */
 
@@ -62,25 +59,25 @@ h5 {
 .navbar {
 	max-height: 200px;
 	border-radius: 0;
-    font-size: 20px;
+
 }
 
 .navbarlink a:linked,
 visited {
 	text-decoration: none;
 	font-weight: normal;
-    font-size: 20px;}
+}
 
 .navbarlink a:hover {
 	text-decoration: underline;
 	font-weight: bold;
-    font-size: 20px;
+
 }
 
 .navbarlink a:active {
 	text-decoration: none;
 	font-weight: bold;
-    font-size: 20px;
+
 }
 
 
@@ -90,7 +87,7 @@ visited {
     background-image: url("../images/heroimagecombi1920x500.png");
     background-attachment: fixed;
     background-position: center;
-    background-color: #2948ff;
+     background-color: #2948ff;
 	background-size: cover;
 	max-height: 500px;
 	margin: 0;
@@ -117,7 +114,7 @@ visited {
 	text-align: center;
 }
 
-.hero-text2 {
+.hero-text-md {
 	position: absolute;
 	left: 50%;
 	top: 320px;
@@ -179,11 +176,11 @@ body {
 }
 
     /* Boostrap4 Component Cards Deck */
-    #testimonials > div:first > div > div > p.card-text {
-text-shadow: 0 0 2px 2px gray;
-    clear: both;
-    text-align: justify;
+
+#testimonials.card{
+    margin-bottom: 15px;
 }
+
 
 #testimonials .card-text {
 	font-family: "PT Serif", Serif;
@@ -220,7 +217,7 @@ text-shadow: 0 0 2px 2px gray;
 .card-body {
 	border-radius: 40px;
 	margin: 2px;
-    shadow:
+    text-shadow: 1px 1px gray;
 }
 
 /* Membership Card */
@@ -231,10 +228,7 @@ text-shadow: 0 0 2px 2px gray;
 	border-radius: 20px
 }
 
-#motivator+ul+li {
-    text-align: center;
-}
-
+#pagemain > section > div > div:nth-child(1) > div.col-12.col-sm-6.col-md-4.order-md-1 > ul > li:nth-child(2)
 
 #motivator+ul>li::before {
     content: "“" 
@@ -248,6 +242,7 @@ text-shadow: 0 0 2px 2px gray;
 
 #motivator+ul>li {
     list-style: none;
+    
 }
 
 #value-proposition+ul>li {
@@ -264,6 +259,10 @@ text-shadow: 0 0 2px 2px gray;
 
 #certificates>ul>li {
 	list-style: none;
+}
+
+#interest+ul>li {
+    list-style: none;
 }
 
 #volunteering-experience>ul>li {
@@ -350,6 +349,11 @@ text-shadow: 0 0 2px 2px gray;
 .contactitem>a:hover {
 	color: black;
 	text-decoration: underline;
+}
+
+form {
+    background-color: #8AAFFF;
+    padding: 10px;
 }
 
 /* Site Map Responsive Layout */

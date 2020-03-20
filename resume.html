@@ -1,35 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Resume Page -->
-
+<!-- Home Page -->
 <head>
-
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-
-	<title>Donovan's Resume Page</title>
-    
-    <!-- CSS Reset -->
-    <link rel="stylesheet" href="css/reset.css">
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
-
-	<!-- Font Awesome 4-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<!-- CSS -->
-	<link href="css/main.css" rel="stylesheet" />
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<title>Donovan's Home Page</title><!-- CSS Reset -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link href="css/main.css" rel="stylesheet" />
 
 </head>
-
 <body>
 
 <!--
@@ -37,55 +21,34 @@
 
 Header section
 
-Brand is visible or hidden depending on the size of the browser
-
 =========================================================================
 -->
-
-<header id="pageheader1" class="d-none d-xl-block">
+<header id="pageheader" >
     <a id="top"></a>
     <!-- Navbar component -->
     <nav class="navbar navbar-expand-md navbar-light xs-light" style="background-color: #8AAFFF">
         <div class="container">
             <!-- logo -->
-            <a class="navbar-brand img-fluid" href="index.html"><img src="images/donovanlogo150x131.png" /></a>
+            <a class="navbar-brand img-fluid" href="index.html"><img src="images/donovanlogo150x131.png" class="d-none d-xl-block"><img src="images/donovanlogo200x70.png" class="d-block d-xl-none"/></a>
 
-                <!-- Hamburger -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-                    </button>
-                <!-- Main Navigation -->
-                <div class="navbarlink collapse navbar-collapse" id="navbarNav1" style="justify-content: flex-end">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="resume.html">Resume<span class="sr-only">(current)</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                    </ul>
-               </div>    
+            <!-- Hamburger -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Main Navigation -->
+            <div class="navbarlink collapse navbar-collapse" id="navbarNav" style="justify-content: flex-end">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item "><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </div>       
         </div>
     </nav>
 </header>
 
-<header id="pageheader2" class="d-block d-xl-none">
-    <!-- Navbar component -->
-    <nav class="navbar navbar-expand-md navbar-light xs-light" style="background-color: #8AAFFF">
-        <div class="container">
-            <!-- logo -->
-            <a class="navbar-brand" href="index.html"><img src="images/donovanlogo200x70.png" height="70px" width="200px"/></a>
 
-                <!-- Hamburger -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-                    </button>
-                <!-- Main Navigation -->
-                <div class="navbarlink collapse navbar-collapse" id="navbarNav2" style="justify-content: flex-end">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="resume.html">Resume<span class="sr-only">(current)</span></a></li>
-                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                    </ul>
-               </div>    
-        </div>
-    </nav>
-</header>
+
 <!--
 =========================================================================
 

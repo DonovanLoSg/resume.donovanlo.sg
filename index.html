@@ -7,13 +7,16 @@
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 	<meta content="ie=edge" http-equiv="X-UA-Compatible">
 	<title>Donovan's Home Page</title><!-- CSS Reset -->
-	<link href="css/reset.css" rel="stylesheet"><!-- Latest compiled and minified CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"><!-- CSS -->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"><!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet"><!-- Font Awesome 4-->
-	<link href="css/main.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/e62e6f1eeb.js"></script>
+    <link href="css/main.css" rel="stylesheet" />
+
 </head>
 <body>
+
 <!--
 =========================================================================
 
@@ -29,21 +32,21 @@ Header section
             <!-- logo -->
             <a class="navbar-brand img-fluid" href="index.html"><img src="images/donovanlogo150x131.png" class="d-none d-xl-block"><img src="images/donovanlogo200x70.png" class="d-block d-xl-none"/></a>
 
-<!-- Hamburger -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-                    </button>
-                <!-- Main Navigation -->
-                <div class="navbarlink collapse navbar-collapse" id="navbarNav1" style="justify-content: flex-end">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="nav-item active"><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li>
-                        <li class="nav-item "><a class="nav-link" href="resume.html">Resume</a></li>
-                        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                    </ul>
-               </div>       
+            <!-- Hamburger -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Main Navigation -->
+            <div class="navbarlink collapse navbar-collapse" id="navbarNav" style="justify-content: flex-end">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item "><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </div>       
         </div>
     </nav>
 </header>
-
 
 
 
@@ -58,22 +61,26 @@ Main Content section
 		<div class="jumbotron">
 			<div class="container">
 				<div class="row justify-content-center">
-					<div class="hero-text d-none d-md-block">
+					
+                    <div class="hero-text d-none d-xl-block">
 						<p class="title2">Hello, I'm</p>
 						<p class="title1">Donovan</p>
 						<p class="title2">Web Developer</p>
 						<hr class="title2">
 						<p class="lead"><a class="btn btn-primary btn-lg" href="#" role="button">Employ Me</a></p>
 					</div>
-					<div class=" hero-image d-none d-md-block"><img src="images/donovan343x500.png"></div>
-					<div class="hero-text2 d-block d-md-none">
+					<div class="hero-image d-none d-xl-block"><img src="images/donovan343x500.png"></div>
+
+                    
+					<div class="hero-text-md d-block d-xl-none">
 						<p class="title2-md">Hello, I'm</p>
 						<p class="title1-md">Donovan</p>
 						<p class="title2-md">Web Developer</p>
 						<hr class="title2-md">
 						<p class="lead"><a class="btn btn-primary btn-lg" href="#" role="button">Employ Me</a></p>
 					</div>
-					<div class=" hero-image-md d-block d-md-none"><img src="images/donovan343x500.png"></div>
+					<div class="hero-image-md d-block d-xl-none"><img src="images/donovan343x500.png"></div>
+
 				</div>
 			</div>
 		</div>
@@ -92,7 +99,7 @@ Main Content section
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 order-md-1">
 						<!-- Motivator -->
-						<h1 id="motivator">Motivator</h1>
+						<h1 id="motivator">Motivators</h1>
 						<ul>
 							<li>Leadership needs to be about helping others become the best they can be</li>
 							<li>One’s mind, once stretched by a new idea, never regains its original dimensions.</li>
@@ -166,23 +173,15 @@ Main Content section
 						<h3>Mensa Singapore</h3>
 						<p></p>
 						<p><img id="membershipcard" src="images/membershipcard.png"></p>
-					</div>
-					<div class="col-12 col-md-8">
-						<!-- Personality Test Results -->
-						<div class="row">
-							<div class="col">
-								<h1 id="personality-test">MBTI Profile</h1>
-								<p></p>
-								<h3>The Architect - INTJ</h3>
-								<p></p>
-								<p><img src="images/architect.png"></p>
-							</div>
-							<div class="col">
-								<h1>DISC Profile</h1>
-								<p></p>
-							</div>
-						</div>
-					</div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h1 id="personality-test">MBTI Profile</h1>
+                        <p></p>
+                        <h3>The Architect - INTJ</h3>
+                        <p></p>
+                        <p><img src="images/architect.png"></p>
+                    </div>
+                   
 				</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			</div>
 		</section>
@@ -216,15 +215,26 @@ Footer section
 			<section>
 				<div class="container">
 					<div class="row">
-						<div class="col-12 col-sm-4">
+						<div class="col-12 col-sm-6">
 							<h1>Contact Information</h1>
-							<p class="contactitem"><i aria-hidden="true" class="fa fa-phone-square"></i><span class="sr-only">Mobile</span> (65) 9683 6694 </p>
-							<p class="contactitem"><i aria-hidden="true" class="fa fa-envelope"></i><span class="sr-only">Email</span> <a href="mailto:donovan.lo@mensa.org.sg">donovan.lo@mensa.org.sg</a></p>
-							<p class="contactitem"><i aria-hidden="true" class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span> <a href="https://linkedin.donovan.sg">https://linkedin.donovan.sg</a></p>
-							<p class="contactitem"><i aria-hidden="true" class="fa fa-user-circle-o"></i><span class="sr-only">Profile</span> <a href="https://www.donovanlo.sg">https://www.donovanlo.sg</a></p>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-phone-square"> </i><span class="sr-only">Mobile</span> (65) 9683 6694 </p>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-envelope"> </i><span class="sr-only">Email</span> <a href="mailto:donovan.lo@mensa.org.sg">donovan.lo@mensa.org.sg</a></p>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-linkedin"> </i><span class="sr-only">LinkedIn</span> <a href="https://linkedin.donovan.sg">https://linkedin.donovan.sg</a></p>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-user-circle-o"> </i><span class="sr-only">Profile</span> <a href="https://www.donovanlo.sg">https://www.donovanlo.sg</a></p>
 						</div>
-						<div class="col-12 col-sm-8">
+						<div class="col-12 col-sm-6">
 							<h1>Contact Me Form</h1>
+                            <form>
+                                <label for="sname">Name</label><br>
+                                <input type="text" id="sname"><br>
+
+                                <label for="sname">Message</label><br>
+                                <textarea id="smessage">
+
+                                </textarea><br>
+                                <button id="submit">Send</button>
+                                
+                            </form>
 						</div>
 					</div>
 				</div>
@@ -312,12 +322,10 @@ Footer section
 				</section>
 			</div>
 		</nav>
-	</footer><!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
-	</script> <!-- Popper JS -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js">
-	</script> <!-- Latest compiled JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
-	</script>
-</body>
-</html> 
+	</footer>
+
+    <script scr="main.js"></script>
+  
+  </body>
+</html>
+  
