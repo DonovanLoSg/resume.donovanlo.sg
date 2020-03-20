@@ -1,35 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <!-- Portfolio Page -->
-
 <head>
-
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-
-	<title>Donovan's Portfolio Page</title>
-    
-    <!-- CSS Reset -->
-    <link rel="stylesheet" href="css/reset.css">
-
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
-
-	<!-- Font Awesome 4-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<!-- CSS -->
-	<link href="css/main.css" rel="stylesheet" />
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<title>Donovan's Home Page</title><!-- CSS Reset -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/e62e6f1eeb.js"></script>
+    <link href="css/main.css" rel="stylesheet" />
 
 </head>
-
 <body>
 
 <!--
@@ -37,55 +22,32 @@
 
 Header section
 
-Headers is visible or hidden depending on the size of the browser
-
 =========================================================================
 -->
-
-<header id="pageheader1" class="d-none d-xl-block">
+<header id="pageheader" >
     <a id="top"></a>
     <!-- Navbar component -->
     <nav class="navbar navbar-expand-md navbar-light xs-light" style="background-color: #8AAFFF">
         <div class="container">
             <!-- logo -->
-            <a class="navbar-brand img-fluid" href="index.html"><img src="images/donovanlogo150x131.png" /></a>
+            <a class="navbar-brand img-fluid" href="index.html"><img src="images/donovanlogo150x131.png" class="d-none d-xl-block"><img src="images/donovanlogo200x70.png" class="d-block d-xl-none"/></a>
 
-                <!-- Hamburger -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-                    </button>
-                <!-- Main Navigation -->
-                <div class="navbarlink collapse navbar-collapse" id="navbarNav1" style="justify-content: flex-end">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item "><a class="nav-link" href="resume.html">Resume</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a></li>
-                    </ul>
-               </div>    
+            <!-- Hamburger -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Main Navigation -->
+            <div class="navbarlink collapse navbar-collapse" id="navbarNav" style="justify-content: flex-end">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item "><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a></li>
+                </ul>
+            </div>       
         </div>
     </nav>
 </header>
 
-<header id="pageheader2" class="d-block d-xl-none">
-    <!-- Navbar component -->
-    <nav class="navbar navbar-expand-md navbar-light xs-light" style="background-color: #8AAFFF">
-        <div class="container">
-            <!-- logo -->
-            <a class="navbar-brand" href="index.html"><img src="images/donovanlogo200x70.png" height="70px" width="200px"/></a>
-
-                <!-- Hamburger -->
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
-                    </button>
-                <!-- Main Navigation -->
-                <div class="navbarlink collapse navbar-collapse" id="navbarNav2" style="justify-content: flex-end">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="nav-item "><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li>
-                        <li class="nav-item "><a class="nav-link" href="resume.html">Resume</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a></li>
-                    </ul>
-               </div>    
-        </div>
-    </nav>
-</header>
 
 
 <!--
@@ -165,152 +127,147 @@ Main Content section
 
 	</main>
 
-
 <!--
 =========================================================================
 Footer section
 =========================================================================
 -->
-    <footer id="pagefooter">
-        <!-- Pagination component -->
-        <nav aria-label="Page navigation" id="pagenavigation">
-            <ul class="pagination pagination-circle pg-blue pagination-md justify-content-center">
-                <li class="page-item disabled">
-                    <a class="page-link" aria-label="Previous" href="resume.html#top">
-                        <span aria-hidden="true"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></span>
-                        <span class="sr-only">Previous</span> <!-- `@@ to edit accordingly for different page -->
-                    </a>
-                </li>
-                <li class="page-item "><a class="page-link" href="index.html#topo">1 </a></li>
-                <!-- @@@ to edit accordingly for different page -->
-                <li class="page-item"><a class="page-link" href="resume.html#top">2</a></li>
-                <li class="page-item active"><a class="page-link" >3 <span class="sr-only">(current)</span></a></li>
-                <li class="page-item disabled" >
-                    <a class="page-link" aria-label="Next" tabindex="-1">
-                        <span aria-hidden="true"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <!-- Contact Me section -->
-        <div id="pagefootermiddle" class="container-fluid">
-            <section>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 col-sm-4">
-                            <h1>Contact Information</h1>
-                            <p class="contactitem">
-                                <i class="fa fa-phone" aria-hidden="true"></i><span class="sr-only">Mobile</span>
-                                <my-contact number-user="+65 9683" number-domain=" 6694"></my-contact>
-                            </p>
-                            <p class="contactitem">
-                                <i class="fa fa-envelope" aria-hidden="true"></i><span class="sr-only">Email</span>
-                                <!-- Set data-user and data-domain as your  mail username and domain respectively -->
-                                <my-email data-user="donovan.lo" data-domain="mensa.org.sg">@</my-email>
-                            </p>
-                            <p class="contactitem">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i><span class="sr-only">LinkedIn</span> <a
-                                    href="https://linkedin.donovan.sg">https://linkedin.donovan.sg</a></p>
-                            <p class="contactitem">
-                                <i class="fa fa-user-circle-o" aria-hidden="true"></i><span class="sr-only">Profile</span> <a
-                                    href="https://www.donovanlo.sg">https://www.donovanlo.sg</a></p>
-                        </div>
-                        <div class="col-12 col-sm-8">
-                            <h1>Contact Me Form</h1>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
- 
-        <!-- Site Map Navigation -->
-        <nav aria-label="Site Map navigation">
-            <section id="footer-sitemap" class="container">
-                <ul class="row ">
-                    <li class="col-12 col-sm-6 col-md-4"><a href="index.html#top" class="sitemap-header">Home</a>
-                        <ul class="footer-sitemap-li">
-                            <li><a href="index.html#bio">Bio</a></li>
-                            <li><a href="index.html#value-proposition">Value Proposition</a></li>
-                            <li><a href="index.html#motivator">Motivator</a></li>
-                            <li><a href="index.html#interest">Interest</a></li>
-                            <li><a href="index.html#testimonials">Testimonials</a></li>
-                            <li><a href="index.html#membership">Membership</a></li>
-                            <li><a href="index.html#personality-test">Personality Test Result</a></li>
-                        </ul>
-                    </li>
-                    <li class=" col-12 col-sm-6 col-md-4"><a href="resume.html#top" class="sitemap-header">Resume</a>
-                        <ul class="footer-sitemap-li">
-                            <li><a href="resume.html#objective">Objective</a></li>
-                            <li><a href="resume.html#relevant-summary">Relevant Skills</a></li>
-                            <li><a href="resume.html#past-working-experience">Past Working Experience</a></li>
-                            <li><a href="resume.html#education">Education</a></li>
-                            <li><a href="resume.html#skills">Skills</a></li>
-                            <li><a href="resume.html#certificates">Certificates</a></li>
-                            <li><a href="resume.html#volunteering-experience">Volunteering Experience</a></li>
-                        </ul>
-                    </li>
-                    <li class=" col-12 col-sm-6 col-md-4">
-                        <a href="portfolio.html#top" class="sitemap-header">Portfolio</a>
-                        <ul class=" footer-sitemap-li ">
-                            <li><a href="portfolio.html#project-1 ">Project #1</a></li>
-                            <li><a href="portfolio.html#project-2 ">Project #2</a></li>
-                            <li><a href="portfolio.html#project-3 ">Project #3</a></li>
-                            <li><a href="portfolio.html#project-4 ">Project #4</a></li>
-                            <li></li>
-                            <li class="sitemap-header"><a href="resume.html#download-resume" class="download-resume">Download Resume</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                 
-            </section>
- 
-        </nav>
- 
- 
- 
- 
-    </footer>
+	<footer id="pagefooter">
+		<!-- Pagination component -->
+		<nav aria-label="Page navigation" id="pagenavigation">
+			<ul class="pagination pagination-circle pg-blue pagination-md justify-content-center">
+				<li class="page-item ">
+					<a aria-label="Previous" class="page-link" href="resume.html#top"><span aria-hidden="true"><i aria-hidden="true" class="fa fa-chevron-circle-left"></i></span> <span class="sr-only">Previous</span> <!-- `@@ to edit accordingly for different page --></a>
+				</li>
+				<li class="page-item ">
+					<a class="page-link" href="index.html#top">1</a>
+				</li><!-- @@@ to edit accordingly for different page -->
+				<li class="page-item">
+					<a class="page-link" href="resume.html#top">2</a>
+				</li>
+				<li class="page-item active" >
+					<a class="page-link"><span class="sr-only">(current)</span>3</a>
+				</li>
+				<li class="page-item disabled">
+					<a aria-label="Next" class="page-link" tabindex="-1"><span aria-hidden="true"><i aria-hidden="true" class="fa fa-chevron-circle-right"></i></span> <span class="sr-only">Next</span></a>
+				</li>
+			</ul>
+		</nav><!-- Contact Me section -->
+		<div class="container-fluid" id="pagefootermiddle">
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-sm-6">
+							<h1>Contact Information</h1>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-phone-square"> </i><span class="sr-only">Mobile</span> (65) 9683 6694 </p>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-envelope"> </i><span class="sr-only">Email</span> <a href="mailto:donovan.lo@mensa.org.sg">donovan.lo@mensa.org.sg</a></p>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-linkedin"> </i><span class="sr-only">LinkedIn</span> <a href="https://linkedin.donovan.sg">https://linkedin.donovan.sg</a></p>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-user-circle-o"> </i><span class="sr-only">Profile</span> <a href="https://www.donovanlo.sg">https://www.donovanlo.sg</a></p>
+						</div>
+						<div class="col-12 col-sm-6">
+							<h1>Contact Me Form</h1>
+                            <form>
+                                <label for="sname">Name</label><br>
+                                <input type="text" id="sname"><br>
 
+                                <label for="sname">Message</label><br>
+                                <textarea id="smessage">
 
+                                </textarea><br>
+                                <button id="submit">Send</button>
+                                
+                            </form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div><!-- Site Map Navigation -->
+		<nav aria-label="Site Map navigation" id="pagefooterbottom">
+			<div class="container-fluid" id="footer-sitemap">
+				<section class="container">
+					<ul class="row">
+						<li class="col-12 col-sm-6 col-md-4">
+							<a class="sitemap-header" href="index.html#top">Home</a>
+							<ul class="footer-sitemap-li">
+								<li>
+									<a href="index.html#bio">Bio</a>
+								</li>
+								<li>
+									<a href="index.html#value-proposition">Value Proposition</a>
+								</li>
+								<li>
+									<a href="index.html#motivator">Motivator</a>
+								</li>
+								<li>
+									<a href="index.html#interest">Interest</a>
+								</li>
+								<li>
+									<a href="index.html#testimonials">Testimonials</a>
+								</li>
+								<li>
+									<a href="index.html#membership">Membership</a>
+								</li>
+								<li>
+									<a href="index.html#personality-test">Personality Test Result</a>
+								</li>
+							</ul>
+						</li>
+						<li class=" col-12 col-sm-6 col-md-4">
+							<a class="sitemap-header" href="resume.html#top">Resume</a>
+							<ul class="footer-sitemap-li">
+								<li>
+									<a href="resume.html#objective">Objective</a>
+								</li>
+								<li>
+									<a href="resume.html#relevant-summary">Relevant Skills</a>
+								</li>
+								<li>
+									<a href="resume.html#past-working-experience">Past Working Experience</a>
+								</li>
+								<li>
+									<a href="resume.html#education">Education</a>
+								</li>
+								<li>
+									<a href="resume.html#skills">Skills</a>
+								</li>
+								<li>
+									<a href="resume.html#certificates">Certificates</a>
+								</li>
+								<li>
+									<a href="resume.html#volunteering-experience">Volunteering Experience</a>
+								</li>
+							</ul>
+						</li>
+						<li class=" col-12 col-sm-6 col-md-4">
+							<a class="sitemap-header" href="portfolio.html#top">Portfolio</a>
+							<ul class=" footer-sitemap-li">
+								<li>
+									<a href="portfolio.html#project-1">Project #1</a>
+								</li>
+								<li>
+									<a href="portfolio.html#project-2">Project #2</a>
+								</li>
+								<li>
+									<a href="portfolio.html#project-3">Project #3</a>
+								</li>
+								<li>
+									<a href="portfolio.html#project-4">Project #4</a>
+								</li>
+								<li style="list-style: none"><br>
+								<br></li>
+								<li class="sitemap-header">
+									<a class="download-resume" href="resume.html">Download Resume</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</nav>
+	</footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<!-- Bootstrap CSS -->
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-	</script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-	</script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
-</body>
-
+    <script scr="main.js"></script>
+  
+  </body>
 </html>
+  
