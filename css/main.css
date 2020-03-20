@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|PT+Serif&display=swap');
 
 
-html {
-	height: 100%
+* {
+    font-family: 'PT Sans', 'Open Sans', sans-serif
 }
 
+body {
+    height: 100%;
+}
 
 
 /* h1 {
@@ -43,6 +46,7 @@ h5 {
 /* Page Header gradient background */
 
 #pageheader {
+    color: white;
 	background: #396afc;
 	/* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #2948ff, #396afc);
@@ -57,10 +61,11 @@ h5 {
 /* Boostrap4 Component Navbar */
 
 .navbar {
-	max-height: 200px;
+
 	border-radius: 0;
 
 }
+
 
 .navbarlink a:linked,
 visited {
@@ -230,7 +235,19 @@ body {
 
 #pagemain > section > div > div:nth-child(1) > div.col-12.col-sm-6.col-md-4.order-md-1 > ul > li:nth-child(2)
 
-#motivator+ul>li::before {
+#motivator+ul>li {
+
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#motivator+ul>li::first-letter {
+    font-weight: bold;
+    font-size: 20px;
+}
+ 
+
+ #motivator+ul>li::before {
     content: "“" 
 }
 
@@ -241,28 +258,33 @@ body {
 /* Removing the 'dots' from the lists */
 
 #motivator+ul>li {
-    list-style: none;
+list-style: none;
+padding: 0;
+float: left;
+
+    
     
 }
 
 #value-proposition+ul>li {
-    list-style: none;
+    list-style-type: none;
 }
 
 #education#ul>li{
-	list-style: none;
+	list-style-type: none;
 }
 
 #skills#ul>li {
-	list-style: none;
+	list-style-type: none;
 }
 
 #certificates>ul>li {
-	list-style: none;
+	list-style-type: none;
 }
 
 #interest+ul>li {
     list-style: none;
+    padding-left: 0;
 }
 
 #volunteering-experience>ul>li {
