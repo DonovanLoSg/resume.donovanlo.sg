@@ -302,12 +302,6 @@ body {
 	color: black;
 }
 
-#pagefooterbottom {
-	background-image: url("../images/footersitemap1920x1080lowres.png");
-	background: darkblue;
-	padding-top: 2em;
-	padding-bottom: 4em;
-}
 
 /* Gradient background for part of footer */
 
@@ -361,7 +355,7 @@ form {
 
 #footer-sitemap {
 	font-family: 'PT Sans', san-serif;
-	background-color: darkblue;
+
 
 	background-size: cover;
 }
@@ -390,4 +384,9 @@ form {
 }
 
 
-
+#footer-sitemap {
+	background-image: url("../images/footersitemap1920x1080lowres.png");
+	background: darkblue;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
