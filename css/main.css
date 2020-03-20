@@ -278,8 +278,9 @@ body {
 }
 
 #portfolio>div>div>div>img {
-	width: 600px;
+	width: 100%;
 	height: auto;
+    margin: 10px;
 }
 
 /* Page Footer */
