@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|PT+Serif&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Open+Sans|PT+Sans|PT+Serif&display=swap');
+</style>
 
 
 * {
@@ -134,7 +136,7 @@ visited {
 }
 
 .title1 {
-	font-family: 'PT Serif', serif;
+	font-family: 'cabria', serif;
 	font-size: 5rem;
 	color: black;
 	line-height: 4.5rem;
@@ -144,7 +146,7 @@ visited {
 
 .title2 {
 	font-family: 'PT Sans', san-serif;
-	font-size: 3rem;
+	font-size: 2rem;
 	color: black;
 	text-shadow: 1px 1px grey;
 }
@@ -160,8 +162,8 @@ visited {
 
 .title2-md {
 	font-family: 'PT Sans', san-serif;
-	font-size: 1.8rem;
-	line-height: 1.5rem;
+	font-size: 1.5rem;
+	line-height: 1.2rem;
 	color: #black;
 	text-shadow: 1px 1px grey;
 }
