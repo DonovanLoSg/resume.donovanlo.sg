@@ -3,6 +3,8 @@
 </style>
 
 
+
+
 * {
     font-family: 'PT Sans', 'Open Sans', sans-serif
 }
@@ -340,6 +342,8 @@ float: left;
 	/* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #2948ff, #396afc);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 	color: black;
 	padding-top: 1em;
 	padding-bottom: 2em;
@@ -412,7 +416,6 @@ form {
 
 
 #footer-sitemap {
-	background-image: url("../images/footersitemap1920x1080lowres.png");
 	background: darkblue;
 	padding-top: 2em;
 	padding-bottom: 2em;
