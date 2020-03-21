@@ -91,12 +91,12 @@ visited {
 /* Boostrap4 Component Jumbotron */
 
 .jumbotron {
-    background-image: url("../images/heroimagecombi1920x500.png");
-    background-attachment: fixed;
+    background-image: url("../images/heroimagecombi1920x600.png");
     background-position: center;
-     background-color: #2948ff;
-	background-size: cover;
-	max-height: 500px;
+    background-color: #2948ff;
+    background-repeat: no-repeat;
+
+
 	margin: 0;
 	padding: 0;
 	border-radius: 0;
