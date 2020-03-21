@@ -5,9 +5,7 @@ document.getElementById("submitform").onclick() =
         subject : "From online form at www.donovanlo.sg",
         to : "donovan.lo@mensa.org.sg",
         from : "donovanlo1174@gmail.com.sg",
-        bodyHtml : document.getElementById("sendername").value+"\n"+document.getElementById("senderemail").value)+"\n"+document.getElementById("bodyHtml").value
-    }).then(
+        bodyHtml : document.getElementById("sendername").value+"\n"+document.getElementById("senderemail").value+"\n"+document.getElementById("bodyHtml".value)}).then(
     message => alert(message)
-    );
-
+    )
 

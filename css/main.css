@@ -130,7 +130,7 @@ visited {
 
 .hero-text-md {
 	position: absolute;
-    bottom: 10px;
+    top: 400px;
 	width: auto;
 	margin: auto;
 	background-color: white;
@@ -368,7 +368,6 @@ float: left;
 	color: black;
 	margin: 10px 0;
 	padding: 10px 0;
-
     min-height: 50px;
 }
 
