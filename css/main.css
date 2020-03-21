@@ -321,9 +321,13 @@ float: left;
 
 /* Boostrap4 Component Pagination */
 
+#pagenavigation>ul>li{
+    float: left;
 
+}
 #pagenavigation>ul>li>.page-link {
 	border: 0px solid white;
+
 }
 
 
