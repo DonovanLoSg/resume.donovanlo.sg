@@ -111,7 +111,7 @@ visited {
 .hero-text {
 	width: auto;
 	margin: auto;
-	background-color: black;
+	background-color: white;
 	opacity: 0.7;
 	padding: 20px;
 	border-radius: 20px;
@@ -125,7 +125,7 @@ visited {
 	top: 320px;
 	width: auto;
 	margin: auto;
-	background-color: black;
+	background-color: white;
 	opacity: 0.7;
 	padding: 10px;
 	border-radius: 10px;
@@ -136,32 +136,34 @@ visited {
 .title1 {
 	font-family: 'PT Serif', serif;
 	font-size: 5rem;
-	color: #8AAFFF;
-	line-height: 5rem;
-	text-shadow: 1px 1px whitesmoke;
+	color: black;
+	line-height: 4.5rem;
+	text-shadow: 1px 1px grey;
+    font-style: italic;
 }
 
 .title2 {
 	font-family: 'PT Sans', san-serif;
 	font-size: 3rem;
-	color: #8AAFFF;
-	text-shadow: 1px 1px whitesmoke;
+	color: black;
+	text-shadow: 1px 1px grey;
 }
 
 .title1-md {
 	font-family: 'PT Serif', serif;
 	font-size: 3rem;
-	color: #8AAFFF;
+	color: black;
 	line-height: 3rem;
-	text-shadow: 1px 1px white;
+	text-shadow: 1px 1px grey;
+    font-style: italic;
 }
 
 .title2-md {
 	font-family: 'PT Sans', san-serif;
 	font-size: 1.8rem;
-	line-height: 1.8rem;
-	color: #8AAFFF;
-	text-shadow: 1px 1px white;
+	line-height: 1.5rem;
+	color: #black;
+	text-shadow: 1px 1px grey;
 }
 
 
