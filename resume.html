@@ -168,36 +168,57 @@ Footer section
 					<a aria-label="Next" class="page-link" href="portfolio.html#top"><span aria-hidden="true"><i aria-hidden="true" class="fa fa-chevron-circle-right"></i></span> <span class="sr-only">Next</span></a>
 				</li>
 			</ul>
-		</nav><!-- Contact Me section -->
-		<div class="container-fluid" id="pagefootermiddle">
+		</nav>
+        <!-- Contact Me section -->
+		<div class="container-fluid " id="pagefootermiddle">
 			<section>
-				<div class="container">
-					<div class="row">
-						<div class="col-12 col-sm-6">
+				<div class="container ">
+					<div class="row justify-content-center ">
+						<div class="col-12 col-lg-6 align-items-stretch ">
 							<h1>Contact Information</h1>
 							<p class="contactitem"><i aria-hidden="true" class="fa fa-phone-square"> </i><span class="sr-only">Mobile</span> (65) 9683 6694 </p>
 							<p class="contactitem"><i aria-hidden="true" class="fa fa-envelope"> </i><span class="sr-only">Email</span> <a href="mailto:donovan.lo@mensa.org.sg">donovan.lo@mensa.org.sg</a></p>
 							<p class="contactitem"><i aria-hidden="true" class="fa fa-linkedin"> </i><span class="sr-only">LinkedIn</span> <a href="https://linkedin.donovan.sg">https://linkedin.donovan.sg</a></p>
 							<p class="contactitem"><i aria-hidden="true" class="fa fa-user-circle-o"> </i><span class="sr-only">Profile</span> <a href="https://www.donovanlo.sg">https://www.donovanlo.sg</a></p>
 						</div>
-						<div class="col-12 col-sm-6">
-							<h1>Contact Me Form</h1>
-                            <form>
-                                <label for="sname">Name</label><br>
-                                <input type="text" id="sname"><br>
-
-                                <label for="sname">Message</label><br>
-                                <textarea id="smessage">
-
-                                </textarea><br>
-                                <button id="submit">Send</button>
-                                
-                            </form>
-						</div>
+						<div class="col-12 col-lg-6">
+                            <h1>Contact Form</h1>
+                            <div class="container">
+                                <form action="https://api.elasticemail.com/v2/email/send" method="post">
+                                    <input type="hidden" name="apikey" value="9AE2E1240D851D95446D75806C226044C407CED61B4F57700A95BAEFFF23F0A5FC2FFC32BC68782501954769A24DA65F">
+                                    <input type="hidden" name="subject" value="From online form at www.donovanlo.sg">
+                                    <input type="hidden" name="to" value="donovan.lo@mensa.org.sg" >
+                                    <input type="hidden" name="from" value="donovanlo1174@gmail.com" >
+                                    <div class="form-group row">
+                                        <label class="col-sm-2 col-form-label text-right" for="sendername">Name</label>
+                                        <div class="col-sm-10">
+                                            <input class="form-control" id="sendername" placeholder="Enter Name" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-2 col-form-label text-right" for="senderemail">Email</label>
+                                        <div class="col-sm-10">
+                                            <input class="form-control" id="senderemail" placeholder="Enter Email" type="email"> <small class="form-text text-muted" id="emailHelp">We'll never share your email with anyone else.</small>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row">
+                                        <label class="col-sm-2 col-form-label text-right" for="bodyHtml">Message</label>
+                                        <div class="col-sm-10">
+                                            <textarea class="form-control" id="bodyHtml" rows="3"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group row text-center">
+                                        <div class="col-12">
+                                          <button id="submitform" type="submit" class="btn btn-primary">Send</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>  
 					</div>
 				</div>
 			</section>
-		</div><!-- Site Map Navigation -->
+        </div><!-- Site Map Navigation -->
 		<nav aria-label="Site Map navigation" id="pagefooterbottom">
 			<div class="container-fluid" id="footer-sitemap">
 				<section class="container">
@@ -284,7 +305,7 @@ Footer section
 			</div>
 		</nav>
 	</footer>
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script scr="main.js"></script>
   
   </body>
