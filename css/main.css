@@ -119,6 +119,7 @@ visited {
 .hero-text {
 	width: auto;
 	margin: auto;
+
 	background-color: white;
 	opacity: 0.7;
 	padding: 20px;
@@ -129,8 +130,7 @@ visited {
 
 .hero-text-md {
 	position: absolute;
-	left: 50%;
-	top: 320px;
+    bottom: 10px;
 	width: auto;
 	margin: auto;
 	background-color: white;
@@ -170,7 +170,7 @@ visited {
 	font-family: 'PT Sans', san-serif;
 	font-size: 1.5rem;
 	line-height: 1.2rem;
-	color: #black;
+	color: black;
 	text-shadow: 1px 1px grey;
 }
 
