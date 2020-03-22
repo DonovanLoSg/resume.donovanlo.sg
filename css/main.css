@@ -241,8 +241,6 @@ h5+p {
 }
 
 #pagemain {
-
-
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(2%, rgba(224,249,255,1)), color-stop(4%, rgba(224,249,255,1)), color-stop(100%, rgba(224,249,255,1)));
     background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(224,249,255,1) 2%, rgba(224,249,255,1) 4%, rgba(224,249,255,1) 100%);
     background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(224,249,255,1) 2%, rgba(224,249,255,1) 4%, rgba(224,249,255,1) 100%);
