@@ -85,9 +85,59 @@ https://sbr.com.sg/hr-education/news/ageism-plagues-singapores-workplace-equalit
 
 # Scope
 
+## Functional Requirement
 
+### Mandatory (FM)
+
+    FM1. Allow download of resume (US6) (SG2)
+    FM2. Responsive design (SG1)
+    FM3. Online Contact Form (SG6)
+    FM4. Use semantic HTML to enhance readability of codes (SG8)
+    FM5. HTML codes to be validated (SG8)
+    FM6. Personal domain name directing to this project site (SG7)
+    FM7. At least 3 pages, or (if using a single scrolling page), at least 3 separate page areas. [Project requirement]
+    FM8. Incorporate a main navigation menu and structured layout using Bootstrap [Project requirement]
+
+### Optional (FM)
+
+    FM1. Comply to Web Content Accessibility Guidelines (SG8)
+    FM2. Readability (Flesch Reading East Test = 60, Flesch-Kincaid Grade Level Score = 8) (with exception of technical terms) (SG8)
+    FM3. Allow sending of short messages via web interface (e.g. WhatsApp) (SG8)
+    FM4. SEO Optimized (SG8)
+
+## Content Requirement
+
+### Mandatory (CM)
+
+    CM1. Personal Bio section (US1) (SG5) 
+    CM2. Education section (US2) (SG2)
+    CM3. Skills section (US3) (SG2)
+    CM4. Working experience section(US4) (SG2)
+    CM5. Contact section (US5) (SG6)
+    CM6. Downloadable resume (US6) (SG2)
+    CM7. Relevant skills (SG4) (SG2)
+    CM8. Project Portfolio (US9) (SG8)
+
+### Optional (CO)
+
+    CO1. Testimonials section (US7)
+    CO2. Motivators section (US8)
+    CO3. Photograph (SG5)
+    CO4. Logo (SG7)
+    CO5. Tagline (SG7)
+    CO6. Value Proposition (SG3)
+    CO7. Interest (SG3)
+    CO8. Result of Personality Tests (e.g. Myers & Briggs) (SG3)
+    CO9. Memberships  (SG3)
+    C10. Volunteering Experience (SG3)
 
 # Developing the Site Structure and Organize Information (Structure)
+
+
+
+
+
+
 
 # Developing Page Structure and Orgaize Interactions (Skeleton)
 
