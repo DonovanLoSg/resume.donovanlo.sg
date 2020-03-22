@@ -311,9 +311,9 @@ h5+p {
 .contactitem {
 	background-color: #8AAFFF;
 	color: black;
-	margin: 10px 0;
-	padding: 10px 0;
-	min-height: 50px;
+	margin: 0 0 30px 0;
+	padding: 10px;
+	min-height: 60px;
 }
 
 .contactitem>i {
