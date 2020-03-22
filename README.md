@@ -345,14 +345,73 @@ It is responsive and expandable. Inserting a new project is easy and will not ne
 
 ## Colour
 
+After doing a bit of research, I decided to use blue as the theme colour.
 
+Blue is best to show trust, honesty, reliability, intelligence, and security. These attributes make blue a perfect fit for IT resumes and when applying to non-profit organizations.
+
+In addition to blue, I vary it's tone and added dash of magenta.
 
 ## Fonts
 
+Sans serif fonts are used as the base for the website and the logo as they give the image of being modern, approachable, and clean.
+
+The clean lines and sharp edges are able to render out more clearly on a screen which increases legibility for users. 
+
+Fonts family used as the base is Open Sans (https://fonts.google.com/specimen/Open+Sans)
+Headings fonts is PT Sans (https://fonts.google.com/specimen/PT+Sans)
+
+For some decorative purpose PT Serif (https://fonts.google.com/specimen/PT+Serif) is used.
+
 ## Images
 
+Hero image selected is a photograph of me (I am the 'product' of this website). It aims to let the user knows how the person behind the keyboard looks like. This also reduce the necessity of recruiters' imagining how antique i may look.
+
+The background of the hero image is a combination of two pics, the connected dots (
+https://www.pngwave.com/png-clip-art-ojanz) and the waves (https://www.pngwave.com/png-clip-art-cclln).
+
+"Infinity of the mind is created by connecting the dots and going with the flow."
 
 
+# Features
+
+< To add >
 
 
 # Technologies
+
+In this project I used **HTM5** to structure the webpages and **CSS3** to style them.
+
+I uses * **Git** * for Versioning Control System and **GitHub** for repositories.
+
+**Gitpod**, an online IDE, is my main coding platform. I do sometimes test out codes in **Repl.it**
+
+I use **Bootstrap 4**, including its compoents and utilities for layout.
+*NavBar* is used for the main navigation, *Jumbotron* is used for displaying the hero image, *Card* is used for testimonials as well as for displaying the project and *Pagination* is used for the page navigation at the footer. *Collapse* is used to hide part of the bio.
+
+A CSS Reset style sheet from Killer Collection of CSS Resets (https://perishablepress.com/a-killer-collection-of-global-css-reset-styles/) is used in additional to Code Institues templates (https://github.com/Code-Institute-Org/gitpod-full-template) to start the coding. 
+The template used for Readme.md is also from Code Institute (https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
+
+Several Tools are also used in the coursee of development:
+
+For drawing diagrams, 
+- Draw.io (https://www.draw.io)
+
+
+Markup Validation Service
+http://validator.w3.org/
+https://www.w3.org/html/logo/ HTML5
+(badge builder)
+W3C Developers Tools
+https://w3c.github.io/developers/tools/
+
+
+CSS Validation Service
+http://jigsaw.w3.org/css-validator/
+
+W3C Link Checker
+https://validator.w3.org/checklink
+
+Codes Clean Up
+https://www.10bestdesign.com/dirtymarkup/
+
+
