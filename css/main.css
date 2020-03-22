@@ -317,16 +317,8 @@ float: left;
 
 /* CSS Flex for Portfolio page */
 
-#portfolio {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between
-}
-
-#portfolio>div>div>div>img {
-	width: 100%;
-	height: auto;
-    margin: 10px;
+#portfolio .card {
+    margin-bottom: 20px;
 }
 
 /* Page Footer */
