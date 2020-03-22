@@ -229,7 +229,8 @@ h5+p {
 .card-body {
 	border-radius: 40px;
 	margin: 2px;
-    text-shadow: 1px 1px gray;
+    font-weight: bold;
+    
 }
 
 /* Membership Card */
