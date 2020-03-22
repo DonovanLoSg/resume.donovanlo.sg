@@ -243,8 +243,86 @@ If there's a need for another sections or break one of these pages into two, it 
 
 # Developing Page Structure and Orgaize Interactions (Skeleton)
 
+## Interface Design
+
+Each page will include three parts - header, main and footer. 
+
+Header and footer include sections that will be repeated all the pages to improve predictability and consistency.
+
+Header will include a logo (CI20) and the main navigation. 
+
+Footer will include a page navigation, contact section and a site navigation (CI7)
+
+The main content section will display content related to the page.
+
+<img src="https://www.donovanlo.sg/readme/readme-id.png" style="margin: 0;">
+
+
+## Site Map
+
+<img src="https://www.donovanlo.sg/readme/readme-sitemap.png" style="margin: 0;">
+
+### Home Page
+* High resolution photo to be displayed as hero image (CI18)
+* Intro/Bio (CI8)
+* Value Proposition (CI13)
+* Motivator (CI9)
+* Interest (CI10)
+* Testimonials (CI11)
+* Memberships (CI17)
+* Result of Personality Tests (e.g. Myers & Briggs) (CI16)
+
+### Resume Page
+* Objective (CI1)
+* Relevant Skills (CI12)
+* Past working experience (CI2)
+* Education (CI3)
+* Skills (CI4)
+* Certificates (CI5) 
+* Volunteering experience (CI6) 
+* A printable resume in pdf format CM6)
+* Keywords for previous job matching job in the new sector  (CI14)
+
+### Portfolio Page
+* Thumbnails to be used to represent individual project (CI19)
+* Project (title, description and thumbnail (CI15)
+
+## Navigation Design
+
+Bootstrap component will be used to make the navigation responsive.
+
+### Logo
+Logo on every page, clicking on it will bring the visitor to the Home Page.
+
+### Main Navigation
+Main Navigation is a fixed position menu at the top of every web page. The 3 pages (Home, Resume, Portfolio) are listed and they are hyperlinked to their respective pages.
+
+### Collapsible Hamburger Mobile Menu
+The top navigation will be minimised into a hamburger menu when displayed in mobile screens or other small screens. Clicking on it will display the familiar 3 choices.
+
+### Page Navigation
+This not only serves as means to navigate forward or backward in the site, it also give the visitor an indication where he is on the site.
+
+### Footer Site Map
+Navigation system in the form of site map allowing visitor to view all the sections at a glance
+
+
+## Information Design
+
+
+
+
+
+
 
 
 
 # Designing Graphics User Interface (Surface)
 
+
+
+
+
+
+
+# Technologies
