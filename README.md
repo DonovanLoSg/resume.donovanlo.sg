@@ -185,13 +185,66 @@ Home Page > Resume Page > Portfolio Page
 <img src="https://www.donovanlo.sg/readme/readme-cs.png" style="margin: 0;">
     
 
+1. Home:
+    * It starts with a home page with a hero image introducing me. Things that are not found in traditional resume.
+    * It allow visitor a glimpse of my character and personality and understand me a little better.
+1. Resume: 
+    * The next page present the information visitor expected to see on a resume.
+    * The layout should be suitable for career changer. It should be effective in showing transferrable skills and experience. It will also contain a link for the visitor to download a pdf copy of the resume. The format of the pdf copy should be similar in layout with the 'resume' page.
+1.  Portfolio
+    * For visitor to look for more evidence of my skills, the projects are presented in the third page.
+    * It contains the names, descriptions, github hyperlinks of the current and past projects. Having a page dedicated to the projects allows the growth of the listing without affecting the layout of the other pages.
 
 
+Exception - Contact
+
+* The call for action of the site is to get the recruiter to contact me.
+* So the Contact section is embedded into the footer of every page .
+* It provide different means to get in touch with me as well as a contact form.
+* The visitor can easily drop me a mail without needing to go out of the site to their email application to do so.
 
 
+The principles of choices are taken into account. The content is organised into 3 pages.
+The system applies the labelling system by using short single words (Home, Resume and Portfolio) which can easily recognised by the visitor.
 
+Applying the principles of front doors, the users should be able to identify where they are in the site regardless of which page they landed. 
+There will also be a navigation system for the visitor to jump to specific section should they decided to.
+
+The principle of growth is considered when the projects are all group under the portfolio page. It will be easy to expand this section without affect the overall structure or other parts of the designs.
+If there's a need for another sections or break one of these pages into two, it can be easily done
+
+### Interaction Design
+
+1.  Learnability
+    1. Different navigation are position are location familiar to a web surfer, and throughout the website to enhance familiarity and consistency. (FM8)
+        1. Logo that leads back to the home page
+        1. Main navigation at the top
+        1. Pagination is included to help visitor identify which part of the site they are at
+        1. Navigation system in the form of site map allowing visitor to view all the sections at a glance
+    1. Symbols will be used to indicate there's a link to the working project to increase the predictability. 
+    1. Domain name access instead of memorising the long URL (FM6)
+    1. Every project in the portfolio are encapsulated in the same card layout for familiarity
+            
+1.  Understandability
+    1. Content are group into logical order with short one word title easily understandable (FM7)
+    1. Readability (Flesch Reading East Test = 60, Flesch-Kincaid Grade Level Score = 8) (with exception of technical terms)  (FO2)
+1. Operability
+    1. The visitor should be able to easily download the resume without encountering any issues. (FM1)
+    1. Provide a working contact form to allow visitor to send an email to me and response with a positive feedback upon successful submission. (FM3)
+    1. Allow users to use a text messaging system with web interface familiar to them (FO3)
+1. Attractiveness
+    1. Responsive design to take into consideration how it looks when on viewed on a desktop browsers as well as smaller screens like mobile phone. The layout will change to cater for different size of the device. (FM2)
+    1. Utilisation of negative space between different sections and components of the page to increase readability
+1.  Usabiltiy compliance
+    1. Semantic HTML to enhance code readability (FM4)
+    1. Rearrangement of the component  (FM5)
+    1. Comply to Web Content Accessibility Guidelines  (FO1)
+    1. Optimize the website for search engine (FO4)
 
 # Developing Page Structure and Orgaize Interactions (Skeleton)
+
+
+
 
 # Designing Graphics User Interface (Surface)
 
