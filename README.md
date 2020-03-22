@@ -312,16 +312,44 @@ Navigation system in the form of site map allowing visitor to view all the secti
 
 ## Information Design
 
+### Personal Branding
 
+The Home Page most people will arrive at aims to create a personal branding.
 
+* High resolution photo to be displayed as hero image (CI18)
+* Intro/Bio (CI8)
+* Value Proposition(CI13)
+* Motivator (CI9)
+* Interest (CI10)
+* Testimonials(CI11)
+* Memberships (CI17)
+* Result of Personality Tests (e.g. Myers & Briggs) (CI16)
 
+A logo is also created to make an impression.
 
+### Career Changer Resume format
 
+The layout format of the resume emphasis on transferrable skills and experience as advised by a article from Novoresume.com
+https://novoresume.com/career-blog/career-change-resume
 
+<img src="https://www.donovanlo.sg/readme/careerchangerresume.png" style="margin: 0;">
+
+### Portfolio Page
+
+This page used Bootstrap layout to present projects.
+Each project can include a title, subtitle, a picture, a brief description and link to the actual site.
+
+It is responsive and expandable. Inserting a new project is easy and will not need to rehash the whole page.
 
 # Designing Graphics User Interface (Surface)
 
+## Colour
 
+
+
+## Fonts
+
+## Images
 
 
 
