@@ -173,13 +173,7 @@ body {
     font-size: 18px;
 	min-height: 100%;
 	padding-bottom: 20px;
-	background: #2980B9;
-	/* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #FFFFFF, #deecfc, #b9ceeb);
-	/* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #FFFFFF, #deecfc, #b9ceeb);
-	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	/* Style for testimonial section of the home page */
+    background-color: #e0f9ff;
 }
 
     /* Boostrap4 Component Cards Deck */
@@ -247,15 +241,14 @@ h5+p {
 }
 
 #pagemain {
-    background: rgba(19,19,19,1);
-    background: -moz-linear-gradient(top, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 3%, rgba(142,207,242,1) 8%, rgba(208,235,250,1) 31%, rgba(208,235,250,1) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(19,19,19,1)), color-stop(3%, rgba(28,28,28,1)), color-stop(8%, rgba(142,207,242,1)), color-stop(31%, rgba(208,235,250,1)), color-stop(100%, rgba(208,235,250,1)));
-    background: -webkit-linear-gradient(top, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 3%, rgba(142,207,242,1) 8%, rgba(208,235,250,1) 31%, rgba(208,235,250,1) 100%);
-    background: -o-linear-gradient(top, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 3%, rgba(142,207,242,1) 8%, rgba(208,235,250,1) 31%, rgba(208,235,250,1) 100%);
-    background: -ms-linear-gradient(top, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 3%, rgba(142,207,242,1) 8%, rgba(208,235,250,1) 31%, rgba(208,235,250,1) 100%);
-    background: linear-gradient(to bottom, rgba(19,19,19,1) 0%, rgba(28,28,28,1) 3%, rgba(142,207,242,1) 8%, rgba(208,235,250,1) 31%, rgba(208,235,250,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131313', endColorstr='#d0ebfa', GradientType=0 );
 
+
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(2%, rgba(224,249,255,1)), color-stop(4%, rgba(224,249,255,1)), color-stop(100%, rgba(224,249,255,1)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(224,249,255,1) 2%, rgba(224,249,255,1) 4%, rgba(224,249,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(224,249,255,1) 2%, rgba(224,249,255,1) 4%, rgba(224,249,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(224,249,255,1) 2%, rgba(224,249,255,1) 4%, rgba(224,249,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(224,249,255,1) 2%, rgba(224,249,255,1) 4%, rgba(224,249,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#e0f9ff', GradientType=0 );
 }
 
 #motivator+ul>li {
@@ -291,14 +284,24 @@ float: left;
 
 #value-proposition+ul>li {
     list-style-type: none;
+    
 }
 
-#education#ul>li{
+
+#education > ul > li{
+	list-style-type: none;  
+}
+
+
+
+#skills > ul >li {
 	list-style-type: none;
 }
 
-#skills#ul>li {
-	list-style-type: none;
+#skills > ul >li > img {
+	margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 6px -6px black;
 }
 
 #certificates>ul>li {
