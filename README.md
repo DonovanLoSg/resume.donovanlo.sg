@@ -133,6 +133,58 @@ https://sbr.com.sg/hr-education/news/ageism-plagues-singapores-workplace-equalit
 
 # Developing the Site Structure and Organize Information (Structure)
 
+## Information Architecture
+
+### Content Inventory (CI)
+
+Information required on the website to fulfil the content requirements.
+
+Information available on the traditional resume:
+
+    CI1. Objective
+    CI2. Past working experience (CM4)
+    CI3. Education (CM2)
+    CI4. Skills (CM3)
+    CI5. Certificates
+    CI6. Volunteering experience (CO10)
+    CI7. Contact details (CM5)
+
+Information requiring copywriting
+
+    CI8. Intro/Bio (CM1)
+    CI9. Motivator (CO2)
+    CI10. Interest (CO7)
+    CI11. Testimonials (CO1)
+    CI12. Relevant Skills (CM7)
+    CI13. Value Proposition (CO6)
+
+Information to be compiled
+
+    CI14. Keysword for previous job matching job in the new sector (CM3) (CM7)
+    CI15. Project (title, description and thumbnail) (CM8)
+    CI16. Result of Personality Tests (e.g. Myers & Briggs) (CO8)
+    CI17. Memberships (CO8)
+
+Image required
+
+    CI18. High resolution photo to be displayed as heo image (CO3)
+    CI19. Thumbnails to be used to represent individual project (CM8)
+    CI20. Personal Logo (CO4)
+
+Documents
+
+    CI21. A printable resume in pdf format (CM6)
+
+
+### Content Structure (CS)
+
+The content will be regroup into a sequential structure.
+
+Home Page > Resume Page > Portfolio Page
+
+<img src="https://www.donovanlo.sg/readme/readme-cs.png" style="margin: 0;">
+    
+
 
 
 
