@@ -229,6 +229,17 @@ body {
 	display: block;
 }
 
+h5+p {
+    margin-bottom: 50px;
+}
+
+#education li {
+    margin-bottom: 20px;
+
+
+}
+
+
 .card-body {
 	border-radius: 40px;
 	margin: 2px;
