@@ -293,22 +293,24 @@ Bootstrap component will be used to make the navigation responsive.
 
 ### Logo
 Logo on every page, clicking on it will bring the visitor to the Home Page.
+[Bootstrap Component - Navbar]
 
 ### Main Navigation
 Main Navigation is a fixed position menu at the top of every web page. The 3 pages (Home, Resume, Portfolio) are listed and they are hyperlinked to their respective pages.
+[Bootstrap Component - Navbar]
 
 ### Collapsible Hamburger Mobile Menu
 The top navigation will be minimised into a hamburger menu when displayed in mobile screens or other small screens. Clicking on it will display the familiar 3 choices.
+[Bootstrap Component - Navbar]
 
 ### Page Navigation
 This not only serves as means to navigate forward or backward in the site, it also give the visitor an indication where he is on the site.
+[Bootstrap Component - Pagination]
 
 ### Footer Site Map
 Navigation system in the form of site map allowing visitor to view all the sections at a glance
 
-
 ## Information Design
-
 
 
 
