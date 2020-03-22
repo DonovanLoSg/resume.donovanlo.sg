@@ -7,16 +7,19 @@
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 	<meta content="ie=edge" http-equiv="X-UA-Compatible">
 	<title>Donovan's Home Page</title><!-- CSS Reset -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://use.fontawesome.com/e62e6f1eeb.js"></script>
-    <link href="css/main.css" rel="stylesheet" />
 
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
+	</script>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+	</script>
+	<script src="https://use.fontawesome.com/e62e6f1eeb.js">
+	</script>
+	<link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-
 <!--
 =========================================================================
 
@@ -24,32 +27,30 @@ Header section
 
 =========================================================================
 -->
-<header id="pageheader" >
-    <a id="top"></a>
-    <!-- Navbar component -->
-    <nav class="navbar navbar-expand-md navbar-dark xs-dark">
-        <div class="container">
-            <!-- logo -->
-            <a class="navbar-brand img-fluid" href="index.html"><img src="images/donovanlogo150x131.png" class="d-none d-xl-block"><img src="images/donovanlogo200x70.png" class="d-block d-xl-none"/></a>
-
-            <!-- Hamburger -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Main Navigation -->
-            <div class="navbarlink collapse navbar-collapse" id="navbarNav" style="justify-content: flex-end">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="nav-item "><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item "><a class="nav-link" href="resume.html">Resume</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a></li>
-                </ul>
-            </div>       
-        </div>
-    </nav>
-</header>
-
-
-
+	<header id="pageheader">
+		<a id="top"></a> 
+<!-- Navbar component -->
+		<nav class="navbar navbar-expand-md navbar-dark xs-dark">
+			<div class="container">
+				<!-- logo -->
+				<a class="navbar-brand img-fluid" href="index.html"><img class="d-none d-xl-block" src="images/donovanlogo150x131.png"><img class="d-block d-xl-none" src="images/donovanlogo200x70.png"></a> <!-- Hamburger -->
+				 <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button> <!-- Main Navigation -->
+				<div class="navbarlink collapse navbar-collapse" id="navbarNav" style="justify-content: flex-end">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="resume.html">Resume</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
 <!--
 =========================================================================
 
@@ -57,156 +58,74 @@ Main Content section
 
 =========================================================================
 -->
-
-
 	<main id="pagemain">
-
-        <div id="portfolio" class="container">
-
-
-             <h1>Portfolio</h1>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-xl-4">
-                        <div class="card">
-                            <img class="card-img-top" src="images/project1.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Donovan Lo's Profile</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">User Centric Front End Development with HTML & CSS</h6>
-                                <p class="card-text">A personal resume website using HTML5 and CSS3.</p>
-                                <a href="http://www.donovanlo.sg/" class="btn btn-primary">Go website</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-sm-6 col-xl-4">
-                        <div class="card">
-                            <img class="card-img-top" src="images/sample2.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Holiday Planner</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Interactive Front End Development with Javascript</h6>
-                                <p class="card-text">Helps to locate nearby accomodation, food and tourist attractions in a selected location.</p>
-                                <a href="https://benhasselgren.github.io/ifd-milestone-project-pages/#" class="btn btn-primary">Go website</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-sm-6 col-xl-4">
-                        <div class="card">
-                            <img class="card-img-top" src="images/sample3.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Memorize Me</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Data Centric Development with Python</h6>
-                                <p class="card-text">Welcome to the Memory Game. This is a free to play game with a 4x4 and 6x6 board. This Game is build as a project for my Full Stack Web Development training.</p>
-                                <a href="https://memorize-me-game.herokuapp.com/" class="btn btn-primary">Go website</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-sm-6 col-xl-4">
-                        <div class="card">
-                            <img class="card-img-top" src="images/sample4.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Unitracker</h5>
-                                <h6 class="card-subtitle mb-2 text-muted">Full Stack Frameworks with Django</h6>
-                                <p class="card-text">Unitracker is a web app to allow users to report bugs, request features and view the details of each ticket.</p>
-                                <a href="https://unitracker.herokuapp.com/" class="btn btn-primary">Go website</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
-
-
-<!-- 
-        
-            <div class="container">
-            <div class="card-deck row">
-                <div class="card col-12 col-md-6">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title"><a id="project-1"></a>Project 001</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-                <div class="card col-12 col-md-6">
-                    <img src="images/sample2.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title"><a id="project-2"></a>Project 002</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                    <div class="card col-12 col-md-6">
-                    <img src="images/sample3.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title"><a id="project-3"></a>Project 003</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-                <div class="card col-12 col-md-6">
-                    <img src="images/sample4.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-title"><a id="project-4"></a>Project 004</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-	
-    
-
-     -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		<div class="container" id="portfolio">
+			<h1>Portfolio</h1>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-6 col-xl-4">
+						<div class="card">
+							<img alt="Card image cap" class="card-img-top" src="images/project1.png">
+							<div class="card-body">
+								<h5 class="card-title">Donovan Lo's Profile</h5>
+								<h6 class="card-subtitle mb-2 text-muted">User Centric Front End Development with HTML & CSS</h6>
+								<p class="card-text">A personal resume website using HTML5 and CSS3.</p><a class="btn btn-primary" href="http://www.donovanlo.sg/">Go website</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-xl-4">
+						<div class="card">
+							<img alt="Card image cap" class="card-img-top" src="images/sample2.png">
+							<div class="card-body">
+								<h5 class="card-title">Holiday Planner</h5>
+								<h6 class="card-subtitle mb-2 text-muted">Interactive Front End Development with Javascript</h6>
+								<p class="card-text">Helps to locate nearby accomodation, food and tourist attractions in a selected location.</p><a class="btn btn-primary" href="https://benhasselgren.github.io/ifd-milestone-project-pages/#">Go website</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-xl-4">
+						<div class="card">
+							<img alt="Card image cap" class="card-img-top" src="images/sample3.png">
+							<div class="card-body">
+								<h5 class="card-title">Memorize Me</h5>
+								<h6 class="card-subtitle mb-2 text-muted">Data Centric Development with Python</h6>
+								<p class="card-text">Welcome to the Memory Game. This is a free to play game with a 4x4 and 6x6 board. This Game is build as a project for my Full Stack Web Development training.</p><a class="btn btn-primary" href="https://memorize-me-game.herokuapp.com/">Go website</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-xl-4">
+						<div class="card">
+							<img alt="Card image cap" class="card-img-top" src="images/sample4.png">
+							<div class="card-body">
+								<h5 class="card-title">Unitracker</h5>
+								<h6 class="card-subtitle mb-2 text-muted">Full Stack Frameworks with Django</h6>
+								<p class="card-text">Unitracker is a web app to allow users to report bugs, request features and view the details of each ticket.</p><a class="btn btn-primary" href="https://unitracker.herokuapp.com/">Go website</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</main>
-
 <!--
 =========================================================================
 Footer section
 =========================================================================
 -->
 	<footer id="pagefooter">
-		<!-- Pagination component -->
+<!-- Pagination component -->
 		<nav aria-label="Page navigation" id="pagenavigation">
 			<ul class="pagination pagination-circle pg-blue pagination-md justify-content-center">
-				<li class="page-item ">
+				<li class="page-item">
 					<a aria-label="Previous" class="page-link" href="resume.html#top"><span aria-hidden="true"><i aria-hidden="true" class="fa fa-chevron-circle-left"></i></span> <span class="sr-only">Previous</span> <!-- `@@ to edit accordingly for different page --></a>
 				</li>
-				<li class="page-item ">
+				<li class="page-item">
 					<a class="page-link" href="index.html#top">1</a>
 				</li><!-- @@@ to edit accordingly for different page -->
 				<li class="page-item">
 					<a class="page-link" href="resume.html#top">2</a>
 				</li>
-				<li class="page-item active" >
+				<li class="page-item active">
 					<a class="page-link"><span class="sr-only">(current)</span>3</a>
 				</li>
 				<li class="page-item disabled">
@@ -214,56 +133,54 @@ Footer section
 				</li>
 			</ul>
 		</nav>
-        <!-- Contact Me section -->
-		<div class="container-fluid " id="pagefootermiddle">
+<!-- Contact Me section -->
+		<div class="container-fluid" id="pagefootermiddle">
 			<section>
-				<div class="container ">
-					<div class="row justify-content-center ">
-						<div class="col-12 col-lg-6 align-items-stretch ">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-12 col-lg-6 align-items-stretch">
 							<h1>Contact Information</h1>
-							<p class="contactitem"><i aria-hidden="true" class="fa fa-phone-square"> </i><span class="sr-only">Mobile</span> (65) 9683 6694 </p>
-							<p class="contactitem"><i aria-hidden="true" class="fa fa-envelope"> </i><span class="sr-only">Email</span> <a href="mailto:donovan.lo@mensa.org.sg">donovan.lo@mensa.org.sg</a></p>
-							<p class="contactitem"><i aria-hidden="true" class="fa fa-linkedin"> </i><span class="sr-only">LinkedIn</span> <a href="https://linkedin.donovan.sg">https://linkedin.donovan.sg</a></p>
-							<p class="contactitem"><i aria-hidden="true" class="fa fa-user-circle-o"> </i><span class="sr-only">Profile</span> <a href="https://www.donovanlo.sg">https://www.donovanlo.sg</a></p>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-phone-square"></i><span class="sr-only">Mobile</span> (65) 9683 6694</p>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-envelope"></i><span class="sr-only">Email</span> <a href="mailto:donovan.lo@mensa.org.sg">donovan.lo@mensa.org.sg</a></p>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span> <a href="https://linkedin.donovan.sg">https://linkedin.donovan.sg</a></p>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-user-circle-o"></i><span class="sr-only">Profile</span> <a href="https://www.donovanlo.sg">https://www.donovanlo.sg</a></p>
 						</div>
 						<div class="col-12 col-lg-6">
-                            <h1>Contact Form</h1>
-                            <div class="container">
-                                <form action="https://api.elasticemail.com/v2/email/send" method="post">
-                                    <input type="hidden" name="apikey" value="9AE2E1240D851D95446D75806C226044C407CED61B4F57700A95BAEFFF23F0A5FC2FFC32BC68782501954769A24DA65F">
-                                    <input type="hidden" name="subject" value="From online form at www.donovanlo.sg">
-                                    <input type="hidden" name="to" value="donovan.lo@mensa.org.sg" >
-                                    <input type="hidden" name="from" value="donovanlo1174@gmail.com" >
-                                    <div class="form-group row">
-                                        <label class="col-sm-2 col-form-label text-right" for="sendername">Name</label>
-                                        <div class="col-sm-10">
-                                            <input class="form-control" id="sendername" placeholder="Enter Name" type="text">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label class="col-sm-2 col-form-label text-right" for="senderemail">Email</label>
-                                        <div class="col-sm-10">
-                                            <input class="form-control" id="senderemail" placeholder="Enter Email" type="email"> <small class="form-text text-muted" id="emailHelp">We'll never share your email with anyone else.</small>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label class="col-sm-2 col-form-label text-right" for="bodyHtml">Message</label>
-                                        <div class="col-sm-10">
-                                            <textarea class="form-control" id="bodyHtml" rows="3"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row text-center">
-                                        <div class="col-12">
-                                          <button id="submitform" type="submit" class="btn btn-primary">Send</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>  
+							<h1>Contact Form</h1>
+							<div class="container">
+								<form action="https://api.elasticemail.com/v2/email/send" method="post">
+									<input name="apikey" type="hidden" value="9AE2E1240D851D95446D75806C226044C407CED61B4F57700A95BAEFFF23F0A5FC2FFC32BC68782501954769A24DA65F"> <input name="subject" type="hidden" value="From online form at www.donovanlo.sg"> <input name="to" type="hidden" value="donovan.lo@mensa.org.sg"> <input name="from" type="hidden" value="donovanlo1174@gmail.com">
+									<div class="form-group row">
+										<label class="col-sm-2 col-form-label text-right" for="sendername">Name</label>
+										<div class="col-sm-10">
+											<input class="form-control" id="sendername" placeholder="Enter Name" type="text">
+										</div>
+									</div>
+									<div class="form-group row">
+										<label class="col-sm-2 col-form-label text-right" for="senderemail">Email</label>
+										<div class="col-sm-10">
+											<input class="form-control" id="senderemail" placeholder="Enter Email" type="email"> <small class="form-text text-muted" id="emailHelp">We'll never share your email with anyone else.</small>
+										</div>
+									</div>
+									<div class="form-group row">
+										<label class="col-sm-2 col-form-label text-right" for="bodyHtml">Message</label>
+										<div class="col-sm-10">
+											<textarea class="form-control" id="bodyHtml" rows="3"></textarea>
+										</div>
+									</div>
+									<div class="form-group row text-center">
+										<div class="col-12">
+											<button class="btn btn-primary" id="submitform" type="submit">Send</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
-        </div><!-- Site Map Navigation -->
+		</div>
+<!-- Site Map Navigation -->
 		<nav aria-label="Site Map navigation" id="pagefooterbottom">
 			<div class="container-fluid" id="footer-sitemap">
 				<section class="container">
@@ -335,24 +252,18 @@ Footer section
 								<li>
 									<a href="portfolio.html#project-4">Project #4</a>
 								</li>
-								
-                            </ul>
-                            <br>
-                            <br>
-
-
-							<a class="sitemap-header download-resume" target="_blank" href="documents/DonovanResume.pdf">Download Resume</a>
-
-
+							</ul><br>
+							<br>
+							<a class="sitemap-header download-resume" href="documents/DonovanResume.pdf" target="_blank">Download Resume</a>
 						</li>
 					</ul>
 				</section>
 			</div>
 		</nav>
 	</footer>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script scr="main.js"></script>
-  
-  </body>
+	<script src="https://smtpjs.com/v3/smtp.js">
+	</script> 
+	<script>
+	</script>
+</body>
 </html>
-  

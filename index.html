@@ -7,16 +7,19 @@
 	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 	<meta content="ie=edge" http-equiv="X-UA-Compatible">
 	<title>Donovan's Home Page</title><!-- CSS Reset -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://use.fontawesome.com/e62e6f1eeb.js"></script>
-    <link href="css/main.css" rel="stylesheet" />
 
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js">
+	</script>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+	</script>
+	<script src="https://use.fontawesome.com/e62e6f1eeb.js">
+	</script>
+	<link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-
 <!--
 =========================================================================
 
@@ -24,32 +27,29 @@ Header section
 
 =========================================================================
 -->
-<header id="pageheader" >
-    <a id="top"></a>
-    <!-- Navbar component -->
-    <nav class="navbar navbar-expand-md navbar-dark xs-dark">
-        <div class="container">
-            <!-- logo -->
-            <a class="navbar-brand img-fluid" href="index.html"><img src="images/donovanlogo150x131.png" class="d-none d-xl-block"><img src="images/donovanlogo200x70.png" class="d-block d-xl-none"/></a>
-
-            <!-- Hamburger -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <!-- Main Navigation -->
-            <div class="navbarlink collapse navbar-collapse" id="navbarNav" style="justify-content: flex-end">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="nav-item active"><a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a></li>
-                    <li class="nav-item "><a class="nav-link" href="resume.html">Resume</a></li>
-                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                </ul>
-            </div>       
-        </div>
-    </nav>
-</header>
-
-
-
+	<header id="pageheader">
+		<a id="top"></a> <!-- Navbar component -->
+		<nav class="navbar navbar-expand-md navbar-dark xs-dark">
+			<div class="container">
+				<!-- logo -->
+				<a class="navbar-brand img-fluid" href="index.html"><img class="d-none d-xl-block" src="images/donovanlogo150x131.png"><img class="d-block d-xl-none" src="images/donovanlogo200x70.png"></a> <!-- Hamburger -->
+				 <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button> <!-- Main Navigation -->
+				<div class="navbarlink collapse navbar-collapse" id="navbarNav" style="justify-content: flex-end">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="nav-item active">
+							<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="resume.html">Resume</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="portfolio.html">Portfolio</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
 <!--
 =========================================================================
 
@@ -61,22 +61,18 @@ Main Content section
 		<div class="jumbotron">
 			<div class="container">
 				<div class="row justify-content-center">
-					
-                    <div class="hero-text d-none d-lg-block">
+					<div class="hero-text d-none d-lg-block">
 						<p class="title2">Hello, I'm</p>
 						<p class="title1">Donovan Lo</p>
 						<p class="title2">Web Developer</p>
 					</div>
 					<div class="hero-image d-none d-lg-block"><img src="images/donovan343x500.png"></div>
-
-                    
 					<div class="hero-text-md d-block d-lg-none">
 						<p class="title2-md">Hello, I'm</p>
 						<p class="title1-md">Donovan</p>
 						<p class="title2-md">Web Developer</p>
 					</div>
 					<div class="hero-image-md d-block d-lg-none"><img src="images/donovan343x500.png"></div>
-
 				</div>
 			</div>
 		</div>
@@ -84,43 +80,28 @@ Main Content section
 			<div class="container">
 				<div class="row">
 					<div class="col-12 col-md-8 order-md-1">
-						<!-- Intro / Bio -->
+<!-- Intro / Bio -->
 						<h1 id="bio">Bio</h1>
-						<p>
-                            I am always challenging myself to find a better way to getting things done. I believe that there are great potential in every individual; I enjoy helping others to move forward, grow, and reach their fullest potential. I disagee with others description of me as a perfectionist, I just take pride in my work.
-                        </p>
-                        <p>
-                            Although I'm IT by training and starting off my career in IT sector. Life has taken me in another direction. I join the nonprofit sector for more than a decade ago. As an independent, self-initiated person, I undertook complex assignments, met deadlines and delivered.
-                        </p>
-                        <p>
-                            With my IT background and being open to ideas, I was able to find and understand the logical connections between them. I have an efficient perception of reality, and together with strong analytical skills, I am able to solve problems systematically, identify needs, and develop innovative strategies for long term sustainable programmes supported with the  best evidence and practice.
-                        </p>
-                        <div class="collapse  multi-collapse show" id="readmorelink">
-                        
-                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="readmorelink readmore">Read more...</button>
-                        </div>
-                        <div class="collapse multi-collapse" id="readmore">
-                        <p>
-                            I have gained experience in the variety of projects I involved. I have started an organisation from scratch, led teams and grown their capabilities. I have set up strategic directions, developed business models, operationalised work processes and overseen different programmes targeting different groups. I have collaborated with ministries, statutory boards, corporations and non-profit groups to facilitate the successful delivery of these programmes.
-                        </p>
-                        <p>
-                            I advanced my career, led teams, achieve things I never thought I am able to. I led an interesting and exciting career life, going places, meeting people from different sectors and across the globe.
-                        </p>
-                        <p>
-                            It was a face-paced career progression, leaving me no time to do the things I like: software development. Life has changed me, unlike the time I left the IT sector as just a coder, I came back, packed with real world hands on experience in different areas, like accounting and business workflow, 
-                        </p>
-                        <p>
-                            Equipped with  the new knowledge of the new technologies, it's another challenge for myself, to look for my childhood dreams, to see how far I can go in software development.
-                        </p>
-                        </div>
+						<p>I am always challenging myself to find a better way to getting things done. I believe that there are great potential in every individual; I enjoy helping others to move forward, grow, and reach their fullest potential. I disagee with others description of me as a perfectionist, I just take pride in my work.</p>
+						<p>Although I'm IT by training and starting off my career in IT sector. Life has taken me in another direction. I join the nonprofit sector for more than a decade ago. As an independent, self-initiated person, I undertook complex assignments, met deadlines and delivered.</p>
+						<p>With my IT background and being open to ideas, I was able to find and understand the logical connections between them. I have an efficient perception of reality, and together with strong analytical skills, I am able to solve problems systematically, identify needs, and develop innovative strategies for long term sustainable programmes supported with the best evidence and practice.</p>
+						<div class="collapse multi-collapse show" id="readmorelink">
+							<button aria-controls="readmorelink readmore" aria-expanded="false" class="btn btn-primary" data-target=".multi-collapse" data-toggle="collapse" type="button">Read more...</button>
+						</div>
+						<div class="collapse multi-collapse" id="readmore">
+							<p>I have gained experience in the variety of projects I involved. I have started an organisation from scratch, led teams and grown their capabilities. I have set up strategic directions, developed business models, operationalised work processes and overseen different programmes targeting different groups. I have collaborated with ministries, statutory boards, corporations and non-profit groups to facilitate the successful delivery of these programmes.</p>
+							<p>I advanced my career, led teams, achieve things I never thought I am able to. I led an interesting and exciting career life, going places, meeting people from different sectors and across the globe.</p>
+							<p>It was a face-paced career progression, leaving me no time to do the things I like: software development. Life has changed me, unlike the time I left the IT sector as just a coder, I came back, packed with real world hands on experience in different areas, like accounting and business workflow,</p>
+							<p>Equipped with the new knowledge of the new technologies, it's another challenge for myself, to look for my childhood dreams, to see how far I can go in software development.</p>
+						</div>
 					</div>
 					<div class="col-12 col-md-8 order-md-2">
-						<!--- Value Proposition -->
+<!--- Value Proposition -->
 						<h1 id="value-proposition">Value Proposition</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 order-md-1">
-						<!-- Motivator -->
+<!-- Motivator -->
 						<h1 id="motivator">Motivators</h1>
 						<ul>
 							<li>Leadership needs to be about helping others become the best they can be</li>
@@ -132,7 +113,7 @@ Main Content section
 						</ul>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 order-md-2">
-						<!-- Interest -->
+<!-- Interest -->
 						<h1 id="interest">Interest</h1>
 						<ul>
 							<li>Quisque et</li>
@@ -145,7 +126,7 @@ Main Content section
 				</div>
 				<div class="row">
 					<div>
-						<!-- Testimonials -->
+<!-- Testimonials -->
 						<h1>Testimonials</h1>
 					</div>
 				</div>
@@ -189,33 +170,32 @@ Main Content section
 				</div>
 				<div class="row">
 					<div class="col-12 col-md-4">
-						<!-- Membership -->
+<!-- Membership -->
 						<h1 id="membership">Membership</h1>
 						<p></p>
 						<h3>Mensa Singapore</h3>
 						<p></p>
 						<p><img id="membershipcard" src="images/membershipcard.png"></p>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <h1 id="personality-test">MBTI Profile</h1>
-                        <p></p>
-                        <h3>The Architect - INTJ</h3>
-                        <p></p>
-                        <p><img src="images/architect.png"></p>
-                    </div>
-                   
+					</div>
+<!-- Personality Test Result -->
+					<div class="col-12 col-md-4">
+						<h1 id="personality-test">MBTI Profile</h1>
+						<p></p>
+						<h3>The Architect - INTJ</h3>
+						<p></p>
+						<p><img src="images/architect.png"></p>
+					</div>
 				</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			</div>
 		</section>
 	</main>
-    
 <!--
 =========================================================================
 Footer section
 =========================================================================
 -->
 	<footer id="pagefooter">
-		<!-- Pagination component -->
+<!-- Pagination component -->
 		<nav aria-label="Page navigation" id="pagenavigation">
 			<ul class="pagination pagination-circle pg-blue pagination-md justify-content-center">
 				<li class="page-item disabled">
@@ -235,56 +215,54 @@ Footer section
 				</li>
 			</ul>
 		</nav>
-        <!-- Contact Me section -->
-		<div class="container-fluid " id="pagefootermiddle">
+<!-- Contact Me section -->
+		<div class="container-fluid" id="pagefootermiddle">
 			<section>
-				<div class="container ">
-					<div class="row justify-content-center ">
-						<div class="col-12 col-lg-6 align-items-stretch ">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-12 col-lg-6 align-items-stretch">
 							<h1>Contact Information</h1>
-							<p class="contactitem"><i aria-hidden="true" class="fa fa-phone-square"> </i><span class="sr-only">Mobile</span> (65) 9683 6694 </p>
-							<p class="contactitem"><i aria-hidden="true" class="fa fa-envelope"> </i><span class="sr-only">Email</span> <a href="mailto:donovan.lo@mensa.org.sg">donovan.lo@mensa.org.sg</a></p>
-							<p class="contactitem"><i aria-hidden="true" class="fa fa-linkedin"> </i><span class="sr-only">LinkedIn</span> <a href="https://linkedin.donovan.sg">https://linkedin.donovan.sg</a></p>
-							<p class="contactitem"><i aria-hidden="true" class="fa fa-user-circle-o"> </i><span class="sr-only">Profile</span> <a href="https://www.donovanlo.sg">https://www.donovanlo.sg</a></p>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-phone-square"></i><span class="sr-only">Mobile</span> (65) 9683 6694</p>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-envelope"></i><span class="sr-only">Email</span> <a href="mailto:donovan.lo@mensa.org.sg">donovan.lo@mensa.org.sg</a></p>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span> <a href="https://linkedin.donovan.sg">https://linkedin.donovan.sg</a></p>
+							<p class="contactitem"><i aria-hidden="true" class="fa fa-user-circle-o"></i><span class="sr-only">Profile</span> <a href="https://www.donovanlo.sg">https://www.donovanlo.sg</a></p>
 						</div>
 						<div class="col-12 col-lg-6">
-                            <h1>Contact Form</h1>
-                            <div class="container">
-                                <form action="https://api.elasticemail.com/v2/email/send" method="post">
-                                    <input type="hidden" name="apikey" value="9AE2E1240D851D95446D75806C226044C407CED61B4F57700A95BAEFFF23F0A5FC2FFC32BC68782501954769A24DA65F">
-                                    <input type="hidden" name="subject" value="From online form at www.donovanlo.sg">
-                                    <input type="hidden" name="to" value="donovan.lo@mensa.org.sg" >
-                                    <input type="hidden" name="from" value="donovanlo1174@gmail.com" >
-                                    <div class="form-group row">
-                                        <label class="col-sm-2 col-form-label text-right" for="sendername">Name</label>
-                                        <div class="col-sm-10">
-                                            <input class="form-control" id="sendername" placeholder="Enter Name" type="text">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label class="col-sm-2 col-form-label text-right" for="senderemail">Email</label>
-                                        <div class="col-sm-10">
-                                            <input class="form-control" id="senderemail" placeholder="Enter Email" type="email"> <small class="form-text text-muted" id="emailHelp">We'll never share your email with anyone else.</small>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label class="col-sm-2 col-form-label text-right" for="bodyHtml">Message</label>
-                                        <div class="col-sm-10">
-                                            <textarea class="form-control" id="bodyHtml" rows="3"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row text-center">
-                                        <div class="col-12">
-                                          <button id="submitform" type="submit" class="btn btn-primary">Send</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>  
+							<h1>Contact Form</h1>
+							<div class="container">
+								<form action="https://api.elasticemail.com/v2/email/send" method="post">
+									<input name="apikey" type="hidden" value="9AE2E1240D851D95446D75806C226044C407CED61B4F57700A95BAEFFF23F0A5FC2FFC32BC68782501954769A24DA65F"> <input name="subject" type="hidden" value="From online form at www.donovanlo.sg"> <input name="to" type="hidden" value="donovan.lo@mensa.org.sg"> <input name="from" type="hidden" value="donovanlo1174@gmail.com">
+									<div class="form-group row">
+										<label class="col-sm-2 col-form-label text-right" for="sendername">Name</label>
+										<div class="col-sm-10">
+											<input class="form-control" id="sendername" placeholder="Enter Name" type="text">
+										</div>
+									</div>
+									<div class="form-group row">
+										<label class="col-sm-2 col-form-label text-right" for="senderemail">Email</label>
+										<div class="col-sm-10">
+											<input class="form-control" id="senderemail" placeholder="Enter Email" type="email"> <small class="form-text text-muted" id="emailHelp">We'll never share your email with anyone else.</small>
+										</div>
+									</div>
+									<div class="form-group row">
+										<label class="col-sm-2 col-form-label text-right" for="bodyHtml">Message</label>
+										<div class="col-sm-10">
+											<textarea class="form-control" id="bodyHtml" rows="3"></textarea>
+										</div>
+									</div>
+									<div class="form-group row text-center">
+										<div class="col-12">
+											<button class="btn btn-primary" id="submitform" type="submit">Send</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
-        </div><!-- Site Map Navigation -->
+		</div>
+<!-- Site Map Navigation -->
 		<nav aria-label="Site Map navigation" id="pagefooterbottom">
 			<div class="container-fluid" id="footer-sitemap">
 				<section class="container">
@@ -356,24 +334,18 @@ Footer section
 								<li>
 									<a href="portfolio.html#project-4">Project #4</a>
 								</li>
-								
-                            </ul>
-                            <br>
-                            <br>
-
-
-							<a class="sitemap-header download-resume" target="_blank" href="documents/DonovanResume.pdf">Download Resume</a>
-
-
+							</ul><br>
+							<br>
+							<a class="sitemap-header download-resume" href="documents/DonovanResume.pdf" target="_blank">Download Resume</a>
 						</li>
 					</ul>
 				</section>
 			</div>
 		</nav>
 	</footer>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script scr="main.js"></script>
-  
-  </body>
+	<script src="https://smtpjs.com/v3/smtp.js">
+	</script> 
+	<script>
+	</script>
+</body>
 </html>
-  
