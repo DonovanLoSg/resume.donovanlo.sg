@@ -371,7 +371,6 @@ https://www.pngwave.com/png-clip-art-ojanz) and the waves (https://www.pngwave.c
 
 "Infinity of the mind is created by connecting the dots and going with the flow."
 
-
 # Features
 
 This is a personal resume website.
@@ -456,15 +455,76 @@ For mindmapping
 - Coggle (https://coggle.it/)
 
 For generating codes for the gradient
-- CSS Matic (https://www.cssmatic.com/)
+- CSS Matic (https://www.cssma_)_
+tic.com/)
 
 # Testing
 
-<To add>
+## Validating Markup
+
+* 3 pages validated using W3 Markup Validation Service (http://validator.w3.org/)
+
+    * index.html - Document checking completed. No errors or warnings to show.
+    * resume.html - Document checking completed. No errors or warnings to show.
+    * portfolio.html - No Error. 2 Warnings about considering using the h1 element as a top-level heading only
+
+## Hyperlink Checking
+
+* 3 pages checked using W3C Link Checker (https://validator.w3.org/checklink)
+
+    * index.html - a link to google form, a link to linkedin profile and a 'mailto:' link was not checked. All 19 anchors are valid.
+        * The linked are later physically checked to be fine.
+    * resume.html - a link to google form and a 'mailto:' link was not checked. All 17 anchors are found valid.
+        * The linked are later physically checked to be fine.
+    * portfolio.html -  a link to google form and a 'mailto:' link was not checked. All 14 anchors are found valid.
+
+## Form Check
+
+    * made a valid submission. The system responds with "Thank you! I will get back to you shortly."
+    * made submissions without name or email address. The system responds with "This is a required question"
+    * made submisssion with invalid email address. The system responds with "Please enter a valid email address"
+
+## Navigation Check
+
+    * Clicked on each of the main navigation on every page and ensure they linked to the right place.
+    * Clicked on each of the page navigation and the previous and next page (whenever is active) on every page and ensure they linked to the right place
+    * Clicked on each of the link in site map navigation on every page and ensure they linked to the right place
+
 
 # Deployment
 
-<To add>
+## Preparation
+
+Before the site goes 'live':
+
+### Content
+
+* Ensured all the last changes are saved and committed.
+* Did a Git Push
+
+### Register a domain name
+
+* Search and register a domain name at Vodien.com (https://www.vodien.com/)
+* Go to the domain name registered and select Manage DNS
+* Add a CNAME entry for "www" and link it to my Git Hub Repository (donovanlosg.github.io)
+
+## Production
+
+Putting the site into production.
+
+### Git Pages
+* At the Git Repository, I navigate to the 'Setting'
+* I scrolled down to the Git Pages section.
+* Select 'master branch'
+* View and test the site at https://donovanlosg.github.io/donovanlo-sg/
+
+### Directing Internet Traffic
+
+* At the Git Repository, I navigate to the 'Setting'
+* I scrolled down to the Git Pages section.
+* Enter the custom domain name 'www.donovanlo.sg'
+* View and test the site at http://www.donovanlo.sg 
+
 
 # Credits
 
