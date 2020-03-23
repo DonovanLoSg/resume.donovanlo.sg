@@ -427,6 +427,15 @@ For mindmapping
 For generating codes for the gradient
 - CSS Matic (https://www.cssmatic.com/)
 
+# Testing
 
+<To add>
 
+# Deployment
+
+<To add>
+
+# Credits
+
+<To add>
 
