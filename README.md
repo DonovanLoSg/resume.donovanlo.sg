@@ -374,8 +374,39 @@ https://www.pngwave.com/png-clip-art-ojanz) and the waves (https://www.pngwave.c
 
 # Features
 
-< To add >
+This is a personal resume website.
 
+## Content
+
+It contains the information recruiters will want to look at and some information i will like to convey. It comprise of 3 pages: home page, resume page and portfolio page. The home page contains information that are not usually found in the resume, the resume page, as the name stated, contains information usually found in the resume, and lastly the portfolio page that contains description and links to the projects i have done.
+
+## Responsiveness
+
+The site is responsive to many devices, from desktop and laptop screen to tablets and smart mobile phones. It can be view in both portrait and landscape orientation. The component on the page will automatically rearrange itself for the best view.
+
+## Ease of navigation
+
+The site can be easily navigated using the main navigation on the top and page navigation at the bottom. The main navigation will collapse into a dropdown menu when the screen size is too small. It can be access by clicking on the hamburger icon on the top right hand corner. The page navigation can also help to identify where in the site you are.  The site map navigation at the bottom gives access to individual section of the pages by one click.
+
+## Consistency and predictability
+
+The header, footer and theme stay consistent throughout the site. Visitor will not feel lost and they will easy find the same components position at the same place regardless of which page they are at.
+
+## Contact Information
+
+The contact information is listed on every page in case anyone decided to print out just one of the page instead of all the page or contact page.
+
+## Contact Form
+
+A contact form allows the visitor to drop me a message without exiting the website to their email client.
+
+## Downloadable Resume
+
+A resume in pdf format is available for download and print at the resume page. It can also be access via the site map navigation at the bottom of the page.
+
+## Portfolio
+
+The portfolio page is a gallery display of past projects. It include a thumbnail, title, brief description and links to the actual project site. It is responsive and will rearrange itself base on the screen size. Adding more project is easy and will not break the layout.
 
 # Technologies
 
@@ -391,7 +422,7 @@ I use **Bootstrap 4**, including its compoents and utilities for layout.
 A CSS Reset style sheet from Killer Collection of CSS Resets (https://perishablepress.com/a-killer-collection-of-global-css-reset-styles/) is used in additional to Code Institues templates (https://github.com/Code-Institute-Org/gitpod-full-template) to start the coding. 
 The template used for Readme.md is also from Code Institute (https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
 
-Several Tools are also used in the coursee of development:
+Several Tools are also used in the course of development:
 
 For drawing diagrams, 
 - Draw.io (https://www.draw.io)
@@ -437,5 +468,45 @@ For generating codes for the gradient
 
 # Credits
 
-<To add>
+## Images
 
+### Logo Creation
+
+The logo is made of different icons from Noun Project (https://thenounproject.com) and the word format idea comes from the movie Scopion. Font used is Segoe UI 28pt on a Canvas 350px by 350px at 96px/in resolutions. The three icons used are:
+
+* Handsome boy icon created by Mat fine, ID (https://thenounproject.com/search/?q=handsome&i=1745191)
+* Glasses icon created by ProSymbols, US (https://thenounproject.com/search/?q=glasses&i=527865)
+* Web design icon created by Vectors Point, PK (https://thenounproject.com/term/web-design/2763529/)
+
+### Hero Image background
+
+The background for hero image is a combination of two images from PngWave.com.
+They are the wave (https://www.pngwave.com/png-clip-art-cclln) and the connected dots (
+https://www.pngwave.com/png-clip-art-ojanz)
+
+### Project Thumbnail
+
+The project thumbnail for first project is edited from images from Pixabay
+(https://pixabay.com/illustrations/imac-ipad-iphone-macbook-laptop-1999636/)
+
+## Projects
+
+The other three projects are from from Code Institute's Student Project Page (https://codeinstitute.net/student-projects/)
+
+## Fonts
+
+The three embedded fonts used in the websites are Open Sans. PT Sans and PT Serif Google Fonts (https://fonts.google.com)
+
+The icons at the contact section are fonts from Font Awesome (https://fontawesome.com/v4.7.0/)
+
+## Resume layout
+
+The layout take reference from the article "How to Write a Career Change Resume in 2020" at NovoResume (https://novoresume.com/career-blog/career-change-resume)
+
+## Acknowledgements
+
+* Mr Paul Chor - Mentor of my course
+* Ms Kelly Yan - Feedback during presentation of the project
+* Mr Eugene Liong - My classmate - For introducing Pixlr for adding transparency to hero image
+* Ms Jolene Wai - My classmate - Helping me with the color combination
+* Mr Jon Tan - My friend - For helping tedious with the testing.
