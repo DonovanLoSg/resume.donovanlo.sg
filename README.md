@@ -396,16 +396,37 @@ Several Tools are also used in the coursee of development:
 For drawing diagrams, 
 - Draw.io (https://www.draw.io)
 
-For Markup Validation,
+For validating markup,
 - W3 Markup Validation Service (http://validator.w3.org/)
 
+For checking links
+- W3C Link Checker (https://validator.w3.org/checklink)
+
+For cleaning up HTML and CSS Codes
+- Dirty Markup (https://www.10bestdesign.com/dirtymarkup/)
+
+For image editing
+- Pixlr (https://pixlr.com)
+- Paint.NET (https://www.getpaint.net)
+
+For creating word cloud
+- Word It Out (https://worditout.com/word-cloud/create)
+
+For checking how it looks like on other devices
+- Responsive Web Design Checker (https://responsivedesignchecker.com/)
+
+For placeholder before real content are inserted
+- Placeholder.com (http://placeholder.com)
+- PlaceIMG (http://placeimg.com)
+- Lorem Ipsum Generator (https://loremipsum.io/)
+- Lipsum Generator (https://www.lipsum.com/)
+
+For mindmapping
+- Coggle (https://coggle.it/)
+
+For generating codes for the gradient
+- CSS Matic (https://www.cssmatic.com/)
 
 
-
-W3C Link Checker
-https://validator.w3.org/checklink
-
-Codes Clean Up
-https://www.10bestdesign.com/dirtymarkup/
 
 
