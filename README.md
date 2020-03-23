@@ -396,17 +396,11 @@ Several Tools are also used in the coursee of development:
 For drawing diagrams, 
 - Draw.io (https://www.draw.io)
 
-
-Markup Validation Service
-http://validator.w3.org/
-https://www.w3.org/html/logo/ HTML5
-(badge builder)
-W3C Developers Tools
-https://w3c.github.io/developers/tools/
+For Markup Validation,
+- W3 Markup Validation Service (http://validator.w3.org/)
 
 
-CSS Validation Service
-http://jigsaw.w3.org/css-validator/
+
 
 W3C Link Checker
 https://validator.w3.org/checklink
