@@ -21,6 +21,9 @@ Site owner's goal: Present self in best light and get hired.
 A live website can be found here https://www.donovanlo.sg/
 
 ---
+
+<img src="https://www.donovanlo.sg/readme/readme-project1.png" style="margin: 0;">
+
 ---
 
 # Defining the Project (Strategy, Scope)
