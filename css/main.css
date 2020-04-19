@@ -10,16 +10,33 @@ body {
 h1 {
 	font-family: Helvetical, sans-serif;
 	display: inline-block;
-	font-size: 20px;
+	font-size: 1.5rem;
 	line-height: 22px;
-	margin-top: 50px;
-	margin-bottom: 30px;
-	background-color: #ff00d0;
-	color: white;
+    margin: 50px auto 30px auto;
+	width: 100%;
+    font-weight: bold;
+	color: black;
 	padding: 4px 25px;
-	border-radius: 0 25px 0 25px;
-	font-weight: bold;
-	text-shadow: 1px 1px gray;
+    background: #8AAFFF;
+    box-shadow: 5px 5px 3px gray; 
+    border-radius: 0 25px 0 25px;
+    height: 2rem;
+	/* background-color: white;
+    
+    border: 1px solid #ff00d0;
+	*/
+    
+	
+}
+
+h1::before {
+  content: "< ";
+  color: red;
+}
+
+h1::after {
+  content: " >";
+  color: red;
 }
 
 h2, h3, h4, h6 {
