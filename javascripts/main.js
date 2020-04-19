@@ -8,4 +8,3 @@ document.getElementById("submitform").onclick() =
         bodyHtml : document.getElementById("sendername").value+"\n"+document.getElementById("senderemail").value+"\n"+document.getElementById("bodyHtml".value)}).then(
     message => alert(message)
     )
-

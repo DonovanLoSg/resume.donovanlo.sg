@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Gochi+Hand|Open+Sans|PT+Sans|PT+Serif&display=swap');
+html{
+    
+}
+
 body {
 	font-family: 'Open Sans', 'PT Sans', sans-serif;
 	font-size: 18px;
-	min-height: 100%;
-	padding-bottom: 20px;
+    
 	background-color: #e0f9ff;
 }
 
@@ -21,12 +24,6 @@ h1 {
     box-shadow: 5px 5px 3px gray; 
     border-radius: 0 25px 0 25px;
     height: 2rem;
-	/* background-color: white;
-    
-    border: 1px solid #ff00d0;
-	*/
-    
-	
 }
 
 h1::before {
@@ -341,7 +338,7 @@ h5+p {
 /* Contact Section */
 
 .contactitem {
-	background-color: #8AAFFF;
+	background-color: white;
 	color: black;
 	margin: 0 0 30px 0;
 	padding: 10px;
