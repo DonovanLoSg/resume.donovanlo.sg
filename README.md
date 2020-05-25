@@ -18,7 +18,7 @@ Site owner's goal: Present self in best light and get hired.
 
 ## Demo
 
-A live website can be found here https://www.donovanlo.sg/
+A live website can be found here https://resume.donovanlo.sg/
 
 ---
 
