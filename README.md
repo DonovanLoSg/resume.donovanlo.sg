@@ -22,7 +22,7 @@ A live website can be found here https://resume.donovanlo.sg/
 
 ---
 
-<img src="https://www.donovanlo.sg/readme/readme-project1.png" style="margin: 0;">
+<img src="https://resume.donovanlo.sg/readme/readme-project1.png" style="margin: 0;">
 
 ---
 
@@ -185,7 +185,7 @@ The content will be regroup into a sequential structure.
 
 Home Page > Resume Page > Portfolio Page
 
-<img src="https://www.donovanlo.sg/readme/readme-cs.png" style="margin: 0;">
+<img src="https://resume.donovanlo.sg/readme/readme-cs.png" style="margin: 0;">
     
 
 1. Home:
@@ -258,12 +258,12 @@ Footer will include a page navigation, contact section and a site navigation (CI
 
 The main content section will display content related to the page.
 
-<img src="https://www.donovanlo.sg/readme/readme-id.png" style="margin: 0;">
+<img src="https://resume.donovanlo.sg/readme/readme-id.png" style="margin: 0;">
 
 
 ## Site Map
 
-<img src="https://www.donovanlo.sg/readme/readme-sitemap.png" style="margin: 0;">
+<img src="https://resume.donovanlo.sg/readme/readme-sitemap.png" style="margin: 0;">
 
 ### Home Page
 * High resolution photo to be displayed as hero image (CI18)
@@ -335,7 +335,7 @@ A logo is also created to make an impression.
 The layout format of the resume emphasis on transferrable skills and experience as advised by a article from Novoresume.com
 https://novoresume.com/career-blog/career-change-resume
 
-<img src="https://www.donovanlo.sg/readme/careerchangerresume.png" style="margin: 0;">
+<img src="https://resume.donovanlo.sg/readme/careerchangerresume.png" style="margin: 0;">
 
 ### Portfolio Page
 
@@ -525,8 +525,8 @@ Putting the site into production.
 
 * At the Git Repository, I navigate to the 'Setting'
 * I scrolled down to the Git Pages section.
-* Enter the custom domain name 'www.donovanlo.sg'
-* View and test the site at http://www.donovanlo.sg 
+* Enter the custom domain name 'resume.donovanlo.sg'
+* View and test the site at http://resume.donovanlo.sg 
 
 
 # Credits
