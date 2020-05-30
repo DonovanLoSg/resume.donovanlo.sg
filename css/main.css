@@ -292,8 +292,11 @@ visited {
 
 .card-body {
 	border-radius: 40px;
-	margin: 2px;
-	font-weight: bold;
+	margin: 2px;    
+}
+
+.card-text {
+    font-size: 0.8em;
 }
 
 h5+p {
