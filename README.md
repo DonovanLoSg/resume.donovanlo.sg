@@ -1,3 +1,5 @@
+![by Donovan](http://resume.donovanlo.sg/images/donovanlogo150x131.png)  
+
 # Donovan Lo Resume website
 ## User Centric Frontend Development Milestone Project
 
