@@ -246,7 +246,7 @@ If there's a need for another sections or break one of these pages into two, it 
     1. Comply to Web Content Accessibility Guidelines  (FO1)
     1. Optimize the website for search engine (FO4)
 
-# Developing Page Structure and Orgaize Interactions (Skeleton)
+# Developing Page Structure and Organize Interactions (Skeleton)
 
 ## Interface Design
 
